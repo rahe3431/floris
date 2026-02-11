@@ -1,0 +1,916 @@
+	src/pm_version.o
+	src/main.o
+	src/list_menu.o
+	src/list_menu_2d.o
+	src/string_util.o
+	src/render_text.o
+	src/font.o
+	src/palette.o
+	src/sound.o
+	src/sound_radio_sys.o
+	asm/unk_02004A44.o
+	asm/unk_02005D10.o
+	src/sound_chatot.o
+	src/poke_overlay.o
+	src/systask_environment.o
+	src/overlay_manager.o
+	src/filesystem.o
+	src/gf_gfx_loader.o
+	src/pokepic.o
+	src/unk_02009D48.o
+	src/unk_0200A090.o
+	src/unk_0200ACF0.o
+	asm/unk_0200B150.o
+	src/brightness.o
+	src/msgdata.o
+	src/message_format.o
+	src/message_printer.o
+	src/unk_0200CE7C.o
+	src/sprite_system.o
+	src/sys_task_api.o
+	asm/render_window.o
+	asm/unk_0200FA24.o
+	asm/unk_0201010C.o
+	asm/unk_02012DD8.o
+	asm/unk_02013534.o
+	src/unk_02013FDC.o
+	src/gf_rtc.o
+	src/list_menu_items.o
+	asm/unk_02014A08.o
+	asm/unk_02014DA0.o
+	src/mail_message.o
+	src/easy_chat.o
+	asm/unk_02015DD8.o
+	asm/unk_020163E0.o
+	src/yes_no_prompt.o
+	asm/unk_02016EDC.o
+	asm/unk_02017FAC.o
+	asm/unk_02018000.o
+	src/unk_02018380.o
+	src/menu_input_state.o
+	src/touchscreen_list_menu.o
+	src/camera_translation.o
+	asm/unk_020192D0.o
+	asm/unk_0201956C.o
+	src/unk_02019BA4.o
+	src/system.o
+	src/heap.o
+	src/bg_window.o
+	src/gf_3d_render.o
+	src/sys_task.o
+	asm/unk_0201F990.o
+	src/string_control_code.o
+	src/math_util.o
+	src/text.o
+	src/vram_transfer_manager.o
+	asm/unk_0202068C.o
+	src/unk_02020A0C.o
+	src/ascii_util.o
+	asm/unk_02020B8C.o
+	asm/unk_020210A0.o
+	src/obj_char_transfer.o
+	src/obj_pltt_transfer.o
+	src/gf_gfx_planes.o
+	src/camera.o
+	asm/unk_02023694.o
+	src/sprite.o
+	src/touchscreen.o
+	src/timer3.o
+	src/error_handling.o
+	src/unk_02025534.o
+	asm/unk_02025C44.o
+	src/font_data.o
+	src/pm_string.o
+	src/touch_hitbox_controller.o
+	asm/unk_02026DE0.o
+	src/unk_02026E30.o
+	src/unk_02026E84.o
+	src/gf_3d_vramman.o
+	asm/unk_02027010.o
+	src/save_arrays.o
+	src/save.o
+	src/sav_system_info.o
+	src/player_data.o
+	src/save_link_ruleset.o
+	src/link_ruleset_data.o
+	src/daycare.o
+	src/pokedex.o
+	src/save_misc.o
+	src/options.o
+	src/apricorn_tree_sys.o
+	src/save_gymmick.o
+	src/save_palpad.o
+	src/mail.o
+	asm/unk_0202B614.o
+	asm/unk_0202C034.o
+	asm/unk_0202C730.o
+	src/coins.o
+	src/save_trainer_card.o
+	src/save_wifi_history.o
+	src/seal_case.o
+	src/igt.o
+	src/sav_chatot.o
+	src/game_stats.o
+	asm/unk_0202D230.o
+	src/save_special_ribbons.o
+	src/roamer.o
+	asm/unk_0202DB34.o
+	src/mystery_gift.o
+	src/hall_of_fame.o
+	asm/unk_0202E41C.o
+	src/save_rankings.o
+	src/palPark_migration.o
+	src/update_dex_received.o
+	src/save_follow_mon.o
+	src/save_pokegear.o
+	src/unk_0202F370.o
+	src/safari_zone.o
+	src/photo_album.o
+	asm/unk_0202FBCC.o
+	asm/unk_02030A98.o
+	src/unk_0203170C.o
+	asm/unk_020318C8.o
+	asm/unk_02031904.o
+	src/unk_02031AF0.o
+	asm/unk_02031B0C.o
+	src/pokewalker.o
+	src/save_trainer_house.o
+	asm/unk_02032844.o
+	asm/unk_02033AE0.o
+	asm/unk_02034354.o
+	asm/unk_02034B0C.o
+	asm/unk_02035900.o
+	asm/unk_020379A0.o
+	asm/unk_02037C94.o
+	asm/unk_0203A3B0.o
+	src/communication_error.o
+	src/unk_0203AC88.o
+	src/wfc_user_info_warning.o
+	src/map_matrix.o
+	src/map_header.o
+	src/map_events.o
+	src/save_local_field_data.o
+	asm/unk_0203BA5C.o
+	src/field_system_rtc_weather.o
+	src/start_menu.o
+	asm/unk_0203DB6C.o
+	src/field_system.o
+	src/location_backup.o
+	src/launch_application.o
+	src/script.o
+	src/fieldmap.o
+	src/scrcmd_c.o
+	src/scrcmd_mart.o
+	src/scrcmd_strbuf.o
+	src/scrcmd_lottery.o
+	src/scrcmd_sound.o
+	src/scrcmd_battle.o
+	src/scrcmd_8.o
+	src/scrcmd_9.o
+	src/unk_0204A3F4.o
+	src/unk_0204B538.o
+	src/scrcmd_apricorn.o
+	src/scrcmd_mystery_gift.o
+	src/scrcmd_12.o
+	src/scrcmd_money.o
+	src/scrcmd_daycare.o
+	src/scrcmd_party.o
+	src/scrcmd_dppl_prizes.o
+	src/scrcmd_17.o
+	src/scrcmd_items.o
+	src/scrcmd_move_relearner.o
+	src/scrcmd_20.o
+	src/scrcmd_battle_castle.o
+	src/scrcmd_battle_arcade.o
+	src/save_vars_flags.o
+	src/task.o
+	src/encounter.o
+	asm/unk_020517A4.o
+	src/battle/battle_setup.o
+	src/blackout.o
+	src/game_clear.o
+	src/field_warp_tasks.o
+	src/script_pokemon_util.o
+	asm/unk_02054514.o
+	asm/unk_02054648.o
+	asm/unk_02054E00.o
+	asm/unk_020551B8.o
+	asm/unk_02055244.o
+	src/unk_02055418.o
+	src/catching_show.o
+	asm/unk_02055BF0_data.o
+	src/unk_02055BF0.o
+	asm/unk_02056680.o
+	asm/unk_02056D7C.o
+	asm/unk_02058034.o
+	asm/unk_02058AEC.o
+	asm/unk_0205A44C.o
+	asm/unk_0205AC88.o
+	src/unk_0205B3DC.o
+	asm/text_0205B4EC.o
+	src/metatile_behavior.o
+	asm/unk_0205BB1C.o
+	asm/unk_0205BFF0.o
+	src/player_avatar.o
+	asm/unk_0205CB48.o
+	src/map_object.o
+	asm/unk_data_020FCBD8.o
+	asm/unk_0205FD20.o
+	asm/unk_02061284.o
+	asm/unk_data_020FD978.o
+	asm/unk_02062108.o
+	asm/unk_data_020FDB44.o
+	asm/unk_020632B0.o
+	src/unk_020648EC.o
+	src/field_use_item.o
+	asm/unk_020658D4.o
+	src/sys_flags.o
+	src/sys_vars.o
+	asm/unk_02066EDC.o
+	src/field_roamer.o
+	asm/unk_0206793C.o
+	asm/unk_02067A60.o
+	src/field_move.o
+	src/field_move_environment.o
+	asm/unk_020689C8.o
+	src/gymmick_init.o
+	src/unk_02068F84.o
+	asm/unk_02068FC8.o
+	src/unk_02069528.o
+	asm/unk_02069660.o
+	asm/unk_0206979C.o
+	src/follow_mon.o
+	src/map_preview_graphic.o
+	src/field_take_photo.o
+	src/unk_0206B910.o
+	src/alph_checks.o
+	src/get_egg.o
+	src/unk_0206D494.o
+	src/pokemon.o
+	src/move.o
+	src/trainer_data.o
+	src/pokemon_storage_system.o
+	src/pokemon_icon_idx.o
+	src/party.o
+	src/pokedex_util.o
+	src/battle_regulation.o
+	asm/unk_02074E5C.o
+	asm/unk_020755E8.o
+	asm/unk_020773AC.o
+	asm/unk_02077678.o
+	src/bag_view.o
+	src/item.o
+	src/bag.o
+	asm/unk_02078834.o
+	asm/unk_02078DD8.o
+	src/party_menu.o
+	src/party_context_menu.o
+	src/party_menu_sprites.o
+	src/party_menu_list_items.o
+	src/party_menu_items.o
+	src/naming_screen.o
+	asm/unk_020850F4.o
+	asm/unk_02085604.o
+	asm/unk_020863F4.o
+	asm/unk_02087284.o
+	asm/unk_02087A78.o
+	asm/unk_02087E70.o
+	asm/unk_02087FD4.o
+	src/unk_0208805C.o
+	asm/unk_02088288.o
+	asm/unk_0208B1AC.o
+	asm/unk_0208C3E4.o
+	asm/unk_0208DE40.o
+	src/ribbon.o
+	src/trainer_memo.o
+	asm/unk_0208F658.o
+	asm/unk_0208F814.o
+	asm/unk_0208FB64.o
+	src/use_item_on_mon.o
+	src/mail_misc.o
+	src/unk_02091054.o
+	src/hatch_egg_task.o
+	src/unk_02091278.o
+	src/unk_020912AC.o
+	src/dex_mon_measures.o
+	asm/unk_02091564.o
+	asm/unk_020915B0.o
+	src/location_gmm_dat.o
+	src/move_relearner.o
+	asm/unk_02091880.o
+	src/application/delete_savedata.o
+	src/application/check_savedata.o
+	src/save_data_read_error.o
+	src/save_data_write_error.o
+	asm/unk_02092B04.o
+	asm/unk_02092BB8.o
+	src/unk_02092BE8.o
+	src/mom_gift.o
+	src/unk_020932A4.o
+	asm/unk_020932E0.o
+	asm/unk_020957B0.o
+	asm/unk_02095DF4.o
+	src/phonebook_dat.o
+	src/choose_starter.o
+	asm/unk_020961D8.o
+	src/error_message_reset.o
+	src/sin_vcount.o
+	asm/frontier.o
+	asm/unk_020968B0.o
+	asm/unk_02096910.o
+	asm/unk_02096C88.o
+	asm/unk_02097024.o
+	asm/unk_020971F8.o
+	asm/unk_02097268.o
+	src/unk_02097720.o
+	asm/unk_020977CC.o
+	asm/unk_020979A8.o
+	asm/unk_02097B78.o
+	asm/unk_02097BE0.o
+	src/unk_02097D3C.o
+	src/pokemon_mood.o
+	src/unk_02097F6C.o
+	asm/middleware.o
+	lib/asm/jn_spl.o
+	lib/NitroSDK/asm/wvr.o
+	lib/NitroDWC/asm/dwcbm.o
+	lib/NitroDWC/asm/dwcaccount.o
+	lib/asm/wifi.o
+	lib/asm/libVCT.o
+	lib/asm/nnsys.o
+	lib/NitroSDK/asm/fx_sincos.o
+	lib/NitroSDK/asm/fx_mtx22.o
+	lib/NitroSDK/asm/fx_mtx33.o
+	lib/NitroSDK/asm/fx_mtx43.o
+	lib/NitroSDK/asm/fx_mtx44.o
+	lib/NitroSDK/asm/fx_cp.o
+	lib/NitroSDK/asm/fx_vec.o
+	lib/NitroSDK/asm/fx_trig.o
+	lib/NitroSDK/asm/fx_atanidx.o
+	lib/NitroSDK/asm/fx.o
+	lib/NitroSDK/asm/gx.o
+	lib/NitroSDK/asm/gxstate.o
+	lib/NitroSDK/asm/gx_vramcnt.o
+	lib/NitroSDK/asm/gx_bgcnt.o
+	lib/NitroSDK/asm/g2.o
+	lib/NitroSDK/asm/g3b.o
+	lib/NitroSDK/asm/g3imm.o
+	lib/NitroSDK/asm/g3x.o
+	lib/NitroSDK/asm/g3_util.o
+	lib/NitroSDK/asm/gx_load2d.o
+	lib/NitroSDK/asm/gx_load3d.o
+	lib/NitroSDK/asm/g3.o
+	lib/NitroSDK/asm/gxasm.o
+	lib/NitroSDK/src/os/os_irqHandler.o
+	lib/NitroSDK/src/os/os_irqTable.o
+	lib/NitroSDK/src/os/os_interrupt.o
+	lib/NitroSDK/src/os/os_spinLock.o
+	lib/NitroSDK/src/os/os_printf.o
+	lib/NitroSDK/src/os/os_thread.o
+	lib/NitroSDK/src/os/os_context.o
+	lib/NitroSDK/src/os/os_emulator.o
+	lib/NitroSDK/src/os/os_message.o
+	lib/NitroSDK/src/os/os_mutex.o
+	lib/NitroSDK/src/os/os_cache.o
+	lib/NitroSDK/src/os/os_init.o
+	lib/NitroSDK/src/os/os_arena.o
+	lib/NitroSDK/src/os/os_alloc.o
+	lib/NitroSDK/src/os/os_tcm.o
+	lib/NitroSDK/src/os/os_protectionUnit.o
+	lib/NitroSDK/src/os/os_protectionRegion.o
+	lib/NitroSDK/src/os/os_exception.o
+	lib/NitroSDK/src/os/os_timer.o
+	lib/NitroSDK/src/os/os_tick.o
+	lib/NitroSDK/src/os/os_alarm.o
+	lib/NitroSDK/src/os/os_valarm.o
+	lib/NitroSDK/src/os/os_system.o
+	lib/NitroSDK/src/os/os_reset.o
+	lib/NitroSDK/src/os/os_ownerInfo.o
+	lib/NitroSDK/src/os/os_vramExclusive.o
+	lib/NitroSDK/src/os/os_entropy.o
+	lib/NitroSDK/src/os/os_terminate_proc.o
+	lib/NitroSDK/asm/mi_wram.o
+	lib/NitroSDK/asm/mi_dma.o
+	lib/NitroSDK/asm/mi_dma_hblank.o
+	lib/NitroSDK/asm/mi_dma_gxcommand.o
+	lib/NitroSDK/asm/mi_memory.o
+	lib/NitroSDK/asm/mi_swap.o
+	lib/NitroSDK/asm/mi_uncompress.o
+	lib/NitroSDK/src/mi/mi_dma_card.o
+	lib/NitroSDK/asm/mi_compress.o
+	lib/NitroSDK/asm/mi_init.o
+	lib/asm/nitro.o
+	lib/MSL_C/asm/MSL_ARM_abort_exit.o
+	lib/MSL_c/asm/MSL_ARM_critical_regions_NITRO.o
+	lib/MSL_C/asm/MSL_ARM_math.o
+	lib/MSL_C/asm/MSL_Common_alloc.o
+	lib/MSL_C/asm/MSL_Common_ansi_files.o
+	lib/MSL_C/src/arith.o
+	lib/MSL_C/asm/MSL_Common_assert.o
+	lib/MSL_C/asm/MSL_Common_buffer_io.o
+	lib/MSL_C/asm/MSL_Common_ctype.o
+	lib/MSL_C/asm/MSL_Common_direct_io.o
+	lib/MSL_C/asm/MSL_Common_errno.o
+	lib/MSL_C/asm/MSL_Common_file_io.o
+	lib/MSL_C/asm/MSL_Common_file_pos.o
+	lib/MSL_C/asm/MSL_Common_float.o
+	lib/MSL_C/asm/MSL_Common_mbstring.o
+	lib/MSL_C/asm/MSL_Common_mem.o
+	lib/MSL_C/asm/MSL_Common_mem_funcs.o
+	lib/MSL_C/asm/MSL_Common_printf.o
+	lib/MSL_C/asm/MSL_Common_qsort.o
+	lib/MSL_C/src/rand.o
+	lib/MSL_C/asm/MSL_Common_scanf.o
+	lib/MSL_C/asm/MSL_Common_signal.o
+	lib/MSL_C/asm/MSL_Common_string.o
+	lib/MSL_C/asm/MSL_Common_strtold.o
+	lib/MSL_C/asm/MSL_Common_strtoul.o
+	lib/MSL_C/asm/MSL_Common_wchar_io.o
+	lib/MSL_C/asm/MSL_Common_wctype.o
+	lib/MSL_C/asm/MSL_Common_wmem.o
+	lib/MSL_C/asm/MSL_Common_wprintf.o
+	lib/MSL_C/asm/MSL_Common_wstring.o
+	lib/MSL_C/asm/MSL_DPMath_e_pow.o
+	lib/MSL_C/asm/MSL_DPMath_s_copysign.o
+	lib/MSL_C/asm/MSL_DPMath_s_fabs.o
+	lib/MSL_C/asm/MSL_DPMath_s_frexp.o
+	lib/MSL_C/asm/MSL_DPMath_s_ldexp.o
+	lib/MSL_C/asm/MSL_DPMath_w_pow.o
+	lib/MSL_C/asm/MSL_fp_ansi.o
+	lib/MSL_C/asm/MSL_math.o
+	lib/MSL_C/asm/MSL_ARM_pool_alloc_NITRO.o
+	lib/MSL_C/asm/MSL_string_extras.o
+	lib/MSL_C/asm/MSL_CPP_NITRO_Ai_LE.o
+	lib/asm/msl.o
+	lib/NitroSDK/src/os/os_irqHandler.o
+	lib/NitroSDK/src/os/os_reset.o
+	lib/NitroSDK/asm/mi_dma.o
+	lib/NitroSDK/asm/mi_dma_gxcommand.o
+	lib/asm/nitro.o
+	lib/NitroSDK/src/os/os_irqHandler.o
+	lib/NitroSDK/src/os/os_irqTable.o
+	lib/NitroSDK/src/os/os_irqHandler.o
+	lib/NitroSDK/src/os/os_irqTable.o
+	-og OVY_0,0 -ol OVY_0
+		asm/overlay_00_thumb.o
+		lib/NitroDWC/asm/overlay_00_arm.o
+	-og field,0 -ol field
+		asm/overlay_01_021E5900.o
+		src/field/overlay_01_021E66E4.o
+		asm/overlay_01_021E6880.o
+		asm/overlay_01_021E7FDC.o
+		asm/overlay_01_021E8744.o
+		asm/overlay_01_021E90C0.o
+		asm/overlay_01_021EA6C4.o
+		asm/overlay_01_021EA824.o
+		asm/overlay_01_021EA8E0.o
+		asm/overlay_01_021EABA8.o
+		asm/overlay_01_021EAF00.o
+		asm/overlay_01_021EAFD4.o
+		asm/overlay_01_021EB1E8.o
+		asm/overlay_01_021EDAFC.o
+		src/field/scrcmd_message.o
+		src/field/draw_map_name.o
+		asm/overlay_01_021EFB38.o
+		asm/overlay_01_021F1348.o
+		asm/overlay_01_021F1AFC.o
+		asm/overlay_01_021F3114.o
+		asm/overlay_01_021F3378.o
+		asm/overlay_01_021F3610.o
+		asm/overlay_01_021F3D38.o
+		asm/overlay_01_021F3F50.o
+		asm/overlay_01_021F4464.o
+		asm/overlay_01_021F467C.o
+		asm/overlay_01_021F4704.o
+		asm/overlay_01_021F6830.o
+		asm/overlay_01_021F6CFC.o
+		asm/overlay_01_sprite_data.o
+		asm/overlay_01_021F72DC.o
+		asm/overlay_01_021F8D80.o
+		asm/overlay_01_021F944C.o
+		asm/overlay_01_021FAC44.o
+		asm/overlay_01_021FAD1C.o
+		asm/overlay_01_021FB04C.o
+		asm/overlay_01_021FB368.o
+		asm/overlay_01_021FB4C0.o
+		asm/overlay_01_021FB5D4.o
+		asm/overlay_01_021FB878.o
+		asm/overlay_01_021FC05C.o
+		asm/overlay_01_021FC4C4.o
+		asm/overlay_01_data_02208BFC.o
+		asm/overlay_01_021FC66C.o
+		asm/overlay_01_021FCD2C.o
+		asm/overlay_01_021FCE98.o
+		asm/overlay_01_021FD1B8.o
+		asm/overlay_01_021FD41C.o
+		asm/overlay_01_021FDA14.o
+		asm/overlay_01_021FE200.o
+		asm/overlay_01_021FE590.o
+		asm/overlay_01_021FE780.o
+		asm/overlay_01_021FEA0C.o
+		asm/overlay_01_021FEC38.o
+		asm/overlay_01_021FED9C.o
+		asm/overlay_01_021FEEEC.o
+		asm/overlay_01_021FF464.o
+		asm/overlay_01_021FF6B0.o
+		asm/overlay_01_021FF854.o
+		asm/overlay_01_021FFC0C.o
+		src/field/overlay_01_021FFECC.o
+		asm/overlay_01_02200040.o
+		asm/overlay_01_022001E4.o
+		asm/overlay_01_022006A8.o
+		asm/overlay_01_02200858.o
+		src/field/scrcmd_pokemon_misc.o
+		src/scrcmd_move_tutor.o
+		src/field/scrcmd_moneybox.o
+		asm/overlay_01_022031C0.o
+		asm/overlay_01_02203A18.o
+		asm/overlay_01_02203E40.o
+		asm/overlay_01_02204004.o
+		src/field/overlay_01_apricorn_tree_anim.o
+		src/field/overlay_01_rock_smash_item.o
+		src/field/headbutt.o
+		asm/overlay_01_022051EC.o
+		asm/overlay_01_022053EC.o
+	-og OVY_2,0 -ol OVY_2
+		asm/overlay_02_02245B80.o
+		src/field/legend_cutscene_camera.o
+		src/field/overlay_2_gear_phone.o
+		src/field/event_cutscene_shaymin.o
+		src/field/event_cutscene_celebi.o
+		src/field/event_cutscene_sinjoh.o
+		src/overlay_02_02251E74.o
+	-og OVY_3,0 -ol OVY_3
+		asm/overlay_03.o
+	-og OVY_4,0 -ol OVY_4
+		asm/overlay_04.o
+	-og OVY_5,0 -ol OVY_5
+		asm/overlay_05.o
+	-og OVY_6,0 -ol OVY_6
+		src/overlay_06.o
+	-og OVY_7,0 -ol OVY_7
+		asm/overlay_07.o
+	-og OVY_8,0 -ol OVY_8
+		asm/overlay_08.o
+	-og OVY_9,0 -ol OVY_9
+	-og OVY_10,0 -ol OVY_10
+		src/battle/trainer_ai.o
+		asm/overlay_10_trainer_ai.o
+	-og OVY_11,0 -ol OVY_11
+	-og OVY_12,0 -ol OVY_12
+		src/battle/battle_022378C0.o
+		asm/overlay_12_022378C0.o
+		src/battle/battle_system.o
+		src/battle/battle_command.o
+		asm/overlay_12_battle_command.o
+		src/battle/battle_controller_player.o
+		src/battle/overlay_12_0224E4FC.o
+		asm/overlay_12_battle_controller_opponent.o
+		src/battle/battle_02261FD4.o
+		asm/overlay_12_battle_controller.o
+		src/battle/battle_hp_bar.o
+		asm/overlay_12_02265E28.o
+		src/battle/battle_input.o
+		asm/overlay_12_0226ADE0.o
+		src/battle/battle_cursor.o
+		src/battle/battle_finger.o
+		src/battle/overlay_12_0226BEC4.o
+	-og OVY_13,0 -ol OVY_13
+		asm/overlay_13_thumb_1.o
+		lib/NitroSDK/asm/mb.o
+		asm/overlay_13_thumb_2.o
+		lib/NitroDWC/asm/overlay_13_arm_2.o
+	-og OVY_14,0 -ol OVY_14
+		asm/overlay_14.o
+	-og OVY_15,0 -ol OVY_15
+		asm/overlay_15.o
+	-og OVY_16,0 -ol OVY_16
+		src/overlay_16_022014A0.o
+		src/overlay_16_02201948.o
+	-og OVY_17,0 -ol OVY_17
+		src/berry_pots_app.o
+		src/berry_pots_app_tasks.o
+	-og OVY_18,0 -ol OVY_18
+		asm/overlay_18.o
+	-og OVY_19,0 -ol OVY_19
+		src/application/view_photo.o
+	-og OVY_20,0 -ol OVY_20
+		src/scrcmd_size_record.o
+	-og OVY_21,0 -ol OVY_21
+		src/scrcmd_fossils.o
+	-og OVY_22,0 -ol OVY_22
+		src/overlay_22.o
+	-og npc_trade,0 -ol npc_trade
+		src/npc_trade.o
+	-og bug_contest,0 -ol bug_contest
+		src/overlay_bug_contest.o
+	-og OVY_25,0 -ol OVY_25
+		src/overlay_25.o
+	-og OVY_26,0 -ol OVY_26
+		src/overlay_26_022598C0.o
+		src/overlay_26_022599D0.o
+	-og OVY_27,0 -ol OVY_27
+		asm/overlay_27.o
+	-og OVY_28,0 -ol OVY_28
+		asm/overlay_28.o
+	-og OVY_29,0 -ol OVY_29
+		asm/overlay_29.o
+	-og touch_save_app,0 -ol touch_save_app
+		src/touch_save_app.o
+	-og OVY_31,0 -ol OVY_31
+		asm/overlay_31.o
+	-og OVY_32,0 -ol OVY_32
+		asm/overlay_32.o
+	-og OVY_33,0 -ol OVY_33
+		asm/overlay_33.o
+	-og OVY_34,0 -ol OVY_34
+		asm/overlay_34.o
+	-og OVY_35,0 -ol OVY_35
+		asm/overlay_35.o
+	-og OVY_36,0 -ol OVY_36
+		src/overlay_36.o
+	-og OVY_37,0 -ol OVY_37
+		asm/overlay_37.o
+	-og OVY_38,0 -ol OVY_38
+		asm/overlay_38_thumb.o
+		lib/NitroDWC/asm/overlay_38_arm.o
+	-og OVY_39,0 -ol OVY_39
+		asm/overlay_39_thumb.o
+		lib/NitroDWC/asm/overlay_39_arm.o
+	-og OVY_40,0 -ol OVY_40
+		asm/overlay_40.o
+	-og OVY_41,0 -ol OVY_41
+		asm/overlay_41.o
+	-og OVY_42,0 -ol OVY_42
+		asm/overlay_42.o
+	-og OVY_43,0 -ol OVY_43
+		asm/overlay_43.o
+	-og OVY_44,0 -ol OVY_44
+		asm/overlay_44.o
+	-og OVY_45,0 -ol OVY_45
+		asm/overlay_45_thumb.o
+		lib/NitroDWC/asm/overlay_45_arm.o
+	-og OVY_46,0 -ol OVY_46
+		asm/overlay_46.o
+	-og OVY_47,0 -ol OVY_47
+		asm/overlay_47.o
+	-og OVY_48,0 -ol OVY_48
+		asm/overlay_48.o
+	-og OVY_49,0 -ol OVY_49
+		asm/overlay_49.o
+	-og trainer_card,0 -ol trainer_card
+		src/overlay_trainer_card.o
+	-og trainer_card_main,0 -ol trainer_card_main
+		asm/overlay_trainer_card_main.o
+	-og trainer_card_signature,0 -ol trainer_card_signature
+		asm/overlay_trainer_card_signature.o
+	-og OVY_53,0 -ol OVY_53
+		src/oaks_speech.o
+		src/oaks_speech_obj.o
+		src/oaks_speech_yesnomenu.o
+	-og options_app,0 -ol options_app
+		src/options_app.o
+	-og OVY_55,0 -ol OVY_55
+		src/overlay_55.o
+	-og OVY_56,0 -ol OVY_56
+		asm/overlay_56.o
+	-og OVY_57,0 -ol OVY_57
+		asm/overlay_57.o
+	-og OVY_58,0 -ol OVY_58
+		asm/overlay_58.o
+	-og OVY_59,0 -ol OVY_59
+		asm/overlay_59.o
+	-og intro_title,0 -ol intro_title
+		src/title_screen.o
+		src/intro_movie.o
+		src/intro_movie_scenes_lib.o
+		src/intro_movie_scene_1.o
+		src/intro_movie_scene_2.o
+		src/intro_movie_scene_3.o
+		src/intro_movie_scene_4.o
+		src/intro_movie_scene_5.o
+	-og OVY_61,0 -ol OVY_61
+		src/choose_starter_app.o
+	-og OVY_62,0 -ol OVY_62
+		src/overlay_mic_test.o
+	-og OVY_63,0 -ol OVY_63
+		src/register_hall_of_fame.o
+	-og OVY_64,0 -ol OVY_64
+		asm/overlay_64.o
+	-og OVY_65,0 -ol OVY_65
+		asm/overlay_65.o
+	-og OVY_66,0 -ol OVY_66
+	-og OVY_67,0 -ol OVY_67
+		asm/overlay_67.o
+	-og OVY_68,0 -ol OVY_68
+		asm/overlay_68.o
+	-og OVY_69,0 -ol OVY_69
+		asm/overlay_69.o
+	-og OVY_70,0 -ol OVY_70
+		asm/overlay_70.o
+	-og OVY_71,0 -ol OVY_71
+		asm/overlay_71.o
+	-og OVY_72,0 -ol OVY_72
+		asm/overlay_72.o
+	-og OVY_73,0 -ol OVY_73
+		asm/overlay_73.o
+	-og OVY_74,0 -ol OVY_74
+		src/application/main_menu/main_menu.o
+		asm/overlay_74_thumb.o
+		asm/nitrocrypto.o
+	-og OVY_75,0 -ol OVY_75
+		asm/overlay_75.o
+	-og credits,0 -ol credits
+		src/credits/data1.o
+		src/credits/credits.o
+		src/credits/data2.o
+	-og OVY_77,0 -ol OVY_77
+	-og certificates_app,0 -ol certificates_app
+		src/certificates_app.o
+	-og OVY_79,0 -ol OVY_79
+	-og OVY_80,0 -ol OVY_80
+		asm/overlay_80_02229EE0.o
+		asm/frontier_system.o
+		src/frontier/frontier_script_context.o
+		asm/overlay_80_0222ACA0.o
+		asm/overlay_80_0222AEF8.o
+		asm/overlay_80_0222BDF4.o
+		asm/overlay_80_0222F608.o
+		asm/overlay_80_0222FD08.o
+		asm/overlay_80_02230B8C.o
+		asm/overlay_80_022310C4.o
+		asm/overlay_80_02231BF8.o
+		asm/overlay_80_022324C4.o
+		src/frontier/frontier_cmd_arcade.o
+		asm/overlay_80_022340E8.o
+		asm/overlay_80_02235390.o
+		asm/overlay_80_02235438.o
+		asm/overlay_80_022357B4.o
+		asm/overlay_80_02235900.o
+		asm/overlay_80_02235FC8.o
+		asm/overlay_80_02236450.o
+		asm/overlay_80_02236B78.o
+		asm/overlay_80_022372D8.o
+		asm/overlay_80_02237A70.o
+		asm/overlay_80_02238034.o
+		asm/overlay_80_022384D8.o
+		asm/frontier_map.o
+		asm/overlay_80_02239960.o
+		asm/overlay_80_02239AF8.o
+		asm/overlay_80_02239BF0.o
+		asm/overlay_80_02239D74.o
+		asm/overlay_80_0223A00C.o
+		asm/overlay_80_0223AC24.o
+	-og OVY_81,0 -ol OVY_81
+		asm/overlay_81.o
+	-og OVY_82,0 -ol OVY_82
+		asm/overlay_82.o
+	-og OVY_83,0 -ol OVY_83
+		asm/overlay_83.o
+	-og OVY_84,0 -ol OVY_84
+		src/battle_arcade_game_board.o
+		asm/battle_arcade_game_board_data.o
+	-og OVY_85,0 -ol OVY_85
+		asm/overlay_85.o
+	-og OVY_86,0 -ol OVY_86
+		asm/overlay_86.o
+	-og OVY_87,0 -ol OVY_87
+		asm/overlay_87.o
+	-og OVY_88,0 -ol OVY_88
+		asm/overlay_88.o
+	-og OVY_89,0 -ol OVY_89
+		asm/overlay_89.o
+	-og OVY_90,0 -ol OVY_90
+		asm/overlay_90.o
+	-og OVY_91,0 -ol OVY_91
+		asm/overlay_91.o
+	-og OVY_92,0 -ol OVY_92
+		asm/overlay_92.o
+	-og OVY_93,0 -ol OVY_93
+		asm/overlay_93_thumb_1.o
+		asm/overlay_93_arm.o
+		asm/overlay_93_thumb_2.o
+	-og OVY_94,0 -ol OVY_94
+		src/overlay_94.o
+	-og OVY_95,0 -ol OVY_95
+		asm/overlay_95.o
+	-og OVY_96,0 -ol OVY_96
+		src/pokeathlon/pokeathlon_course.o
+		asm/overlay_96.o
+	-og OVY_97,0 -ol OVY_97
+		asm/overlay_97.o
+	-og OVY_98,0 -ol OVY_98
+		asm/overlay_98.o
+	-og OVY_99,0 -ol OVY_99
+		asm/overlay_99.o
+	-og pokegear,0 -ol pokegear
+		src/application/pokegear/main/overlay_100_021E5900.o
+		src/application/pokegear/main/pokegear_main.o
+		src/application/pokegear/main/overlay_100_021E6914.o
+		src/application/pokegear/main/pokegear_cursor.o
+	-og pokegear_app,0 -ol pokegear_app
+		src/application/pokegear/map/pokegear_map.o
+		src/application/pokegear/map/overlay_101_021F79B4.o
+		src/application/pokegear/map/overlay_101_021E7FF4.o
+		src/application/pokegear/map/overlay_101_021E9270.o
+		src/application/pokegear/map/overlay_101_021EB568.o
+		src/application/pokegear/map/overlay_101_021ED498.o
+		src/application/pokegear/map/fly_map.o
+		src/application/pokegear/map/overlay_101_021EDCE0.o
+		src/application/pokegear/configure/pokegear_configure.o
+		src/application/pokegear/configure/overlay_101_021EED44.o
+		src/application/pokegear/configure/overlay_101_021EF1D8.o
+		src/application/pokegear/configure/overlay_101_021EF6D0.o
+		src/application/pokegear/phone/pokegear_phone.o
+		src/application/pokegear/phone/overlay_101_021EFD20.o
+		src/application/pokegear/phone/overlay_101_021F017C.o
+		src/application/pokegear/phone/overlay_101_021F0880.o
+		src/application/pokegear/phone/overlay_101_021F0F48.o
+		src/application/pokegear/phone/overlay_101_021F1D74.o
+		src/application/pokegear/phone/scripts/phone_scripts_mother.o
+		src/application/pokegear/phone/scripts/phone_scripts_prof_elm.o
+		src/application/pokegear/phone/scripts/phone_scripts_generic.o
+		src/application/pokegear/phone/scripts/phone_scripts_prof_oak.o
+		src/application/pokegear/phone/scripts/phone_scripts_kurt.o
+		src/application/pokegear/phone/scripts/phone_scripts_bike_shop.o
+		src/application/pokegear/phone/scripts/phone_scripts_blackbelt_kenji.o
+		src/application/pokegear/phone/scripts/phone_scripts_bill.o
+		src/application/pokegear/phone/scripts/phone_scripts_daycare_man.o
+		src/application/pokegear/phone/scripts/phone_scripts_daycare_lady.o
+		src/application/pokegear/phone/scripts/phone_scripts_buena.o
+		src/application/pokegear/phone/scripts/phone_scripts_childhood_friend.o
+		src/application/pokegear/phone/scripts/phone_scripts_gym_leader.o
+		src/application/pokegear/phone/scripts/phone_scripts_baoba.o
+		src/application/pokegear/phone/scripts/phone_scripts_juggler_irwin.o
+		src/application/pokegear/phone/extra_ethan_lyra_data.o
+		src/application/pokegear/radio/pokegear_radio.o
+		src/application/pokegear/radio/overlay_101_021F49F8.o
+		src/application/pokegear/radio/overlay_101_021F4F34.o
+		src/application/pokegear/radio/overlay_101_021F57B8.o
+		src/application/pokegear/radio/shows/pokemon_music.o
+		src/application/pokegear/radio/shows/poke_flute.o
+		src/application/pokegear/radio/shows/unown.o
+		src/application/pokegear/radio/shows/team_rocket.o
+		src/application/pokegear/radio/shows/serial_radio_drama.o
+		src/application/pokegear/radio/shows/commercials.o
+		src/application/pokegear/radio/shows/pokemon_search_party.o
+		src/application/pokegear/radio/shows/buenas_password.o
+		src/application/pokegear/radio/shows/that_town_these_people.o
+		src/application/pokegear/radio/shows/trainer_profiles.o
+		src/application/pokegear/radio/shows/pokemon_talk.o
+		src/application/pokegear/radio/shows/mahogany_signal.o
+		src/application/pokegear/phone/phone_script_defs.o
+		src/application/pokegear/phone/phone_generic_headers.o
+	-og OVY_102,0 -ol OVY_102
+		asm/overlay_102.o
+	-og OVY_103,0 -ol OVY_103
+		asm/overlay_103.o
+	-og OVY_104,0 -ol OVY_104
+		asm/overlay_104.o
+	-og OVY_105,0 -ol OVY_105
+		asm/overlay_105.o
+	-og OVY_106,0 -ol OVY_106
+		asm/overlay_106.o
+	-og OVY_107,0 -ol OVY_107
+	-og OVY_108,0 -ol OVY_108
+		asm/overlay_108.o
+		asm/overlay_108_021E8850.o
+	-og OVY_109,0 -ol OVY_109
+		asm/overlay_109.o
+	-og OVY_110,0 -ol OVY_110
+		src/alph_puzzle.o
+	-og OVY_111,0 -ol OVY_111
+		asm/overlay_111.o
+	-og OVY_112,0 -ol OVY_112
+		asm/overlay_112.o
+	-og OVY_113,0 -ol OVY_113
+		asm/overlay_113.o
+	-og OVY_114,0 -ol OVY_114
+		asm/overlay_114.o
+	-og OVY_115,0 -ol OVY_115
+		asm/overlay_115.o
+	-og OVY_116,0 -ol OVY_116
+		asm/overlay_116.o
+	-og OVY_117,0 -ol OVY_117
+		asm/overlay_117.o
+	-og OVY_118,0 -ol OVY_118
+		asm/overlay_118.o
+	-og OVY_119,0 -ol OVY_119
+		asm/overlay_119.o
+	-og OVY_120,0 -ol OVY_120
+		asm/overlay_120.o
+	-og view_rankings_app,0 -ol view_rankings_app
+		src/application/view_rankings.o
+	-og voltorb_flip,0 -ol voltorb_flip
+		src/voltorb_flip/voltorb_flip.o
+		src/voltorb_flip/voltorb_flip_tasks.o
+		src/voltorb_flip/voltorb_flip_game.o
+		src/voltorb_flip/voltorb_flip_input.o
+	-og OVY_123,0 -ol OVY_123
+		lib/asm/overlay_123.o
+	-og OVY_124,0 -ol OVY_124
+		src/overlay_124.o
+	-og OVY_125,0 -ol OVY_125
+	-og OVY_126,0 -ol OVY_126
+	-og OVY_127,0 -ol OVY_127
+	-og OVY_128,0 -ol OVY_128
