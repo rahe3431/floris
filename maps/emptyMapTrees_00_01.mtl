@@ -2,3 +2,7 @@ newmtl grass02
 map_Kd grass02.png
 map_d grass02.png
 
+newmtl cliff01
+map_Kd cliff01.png
+map_d cliff01.png
+

@@ -8,9 +8,9 @@
     <body>
         <original_create date="2019-01-11T13:52:52" host="unknown" source="untitled" user="unknown"/>
         <original_generator name="Pokemon DS Map Studio" version="1.0"/>
-        <model_info compress_material="on" compress_node="merge" force_full_weight="off" magnify="1" material_size="9 9" node_size="1 1" output_texture="used" pos_scale="6" scaling_rule="standard" tex_matrix_mode="maya" tool_start_frame="1" use_primitive_strip="on" vertex_style="direct"/>
-        <box_test pos_scale="6" whd="0.500000 0.000000 0.250000" xyz="-4.000000 0.000000 -4.000000"/>
-        <tex_image_array size="9">
+        <model_info compress_material="on" compress_node="merge" force_full_weight="off" magnify="1" material_size="10 10" node_size="1 1" output_texture="used" pos_scale="6" scaling_rule="standard" tex_matrix_mode="maya" tool_start_frame="1" use_primitive_strip="on" vertex_style="direct"/>
+        <box_test pos_scale="7" whd="4.000000 0.000000 0.125000" xyz="-2.000000 0.000000 -2.000000"/>
+        <tex_image_array size="10">
             <tex_image color0_mode="color" format="palette16" height="32" index="0" name="pond_on" original_height="32" original_width="32" palette_name="pond_on" path="" width="32">
                 <bitmap size="256"> 0000 0001 0000 0000 0000 0000 0000 0000 1000 0012 0000 0000 0000 0000 0000 0000 0000 0001 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 1100 0000 0000 0000 0000 0000 0000 0000 1100 0000 0000 0000 0000 0000 0000 1221 0000 0000 0000 0000 0000 0000 0000 1221 0000 0000 0000 0000 0000 0011 0000 0000 0000 0000 0000 0000 0000 0011 0000 0000 0000 0000 0001 0000 0000 0000 1221 0000 0000 1000 0012 0000 0000 0000 1221 1000 0000 0000 0001 0000 0000 0000 0000 2100 0001 0000 0000 0000 0000 0000 0000 1000 0000 0000 0000 0000 0000 0000 0000 0000 0000 1221 0000 0000 0000 0000 0000 0000 0000 1221 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0010 0000 0000 0000 0000 0000 0000 0000 0121 0000 0000 0000 0000 0000 0000 0000 0010 0000 0010 0000 1100 0000 0000 0000 0000 0000 0121 0000 1100 0000 0000 0000 0000 0000 0010 1221 0000 0000 0000 0000 0000 0000 0000 1221 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 1221 0000 1111 0000 0000 0000 0000 0000 1221 0000 1111 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 1111 0000 0000 0000 0000 0000 0000 0000 1111 0000</bitmap>
             </tex_image>
@@ -38,8 +38,11 @@
             <tex_image color0_mode="color" format="palette16" height="16" index="8" name="grass02" original_height="16" original_width="16" palette_name="grass02_pl" path="" width="16">
                 <bitmap size="64"> 1111 1111 1111 1101 1221 1011 1111 1001 1221 0011 1111 0011 1111 0111 1110 1111 1111 1111 1111 1101 1111 1111 1122 1111 0111 1111 0122 1011 0111 1110 1111 1111 1111 1100 1111 1111 1111 1111 1111 1111 1101 1111 0111 1111 1111 1011 0111 1110 1111 1111 1111 1100 0111 1111 1111 1111 1111 1111 1111 2211 1111 1111 1111 2211</bitmap>
             </tex_image>
+            <tex_image color0_mode="color" format="palette16" height="32" index="9" name="cliff01gs" original_height="32" original_width="32" palette_name="cliff01" path="" width="32">
+                <bitmap size="256"> 6664 5556 4445 4444 6664 5556 4445 4444 6644 3666 3300 4433 6644 4445 3344 4443 5244 0366 3000 4333 5244 4444 1344 4331 4444 0033 1000 3333 4444 6664 1344 4311 4444 0003 1100 3331 4444 6666 4446 4311 4444 0003 1110 4331 6444 6666 4466 4311 4444 0034 1111 4333 6444 6666 4666 4311 4442 1344 3111 2433 6442 6666 6666 2433 4444 4444 3311 6443 4466 6666 6666 6433 4446 4444 3334 6644 4666 6664 4666 6644 7466 4457 4444 6664 6666 6654 3466 6664 7766 4577 4444 6664 6666 6546 1146 6665 7776 5777 4444 6663 6666 5466 1114 6663 7766 7777 3444 6543 6656 4666 3111 6543 7666 7777 3345 5443 6664 6666 3311 5443 6664 5777 3355 4444 6666 5666 3334 4444 6644 5556 4445 0134 6664 4556 4444 4444 6446 5555 4444 0013 6640 4455 4444 7442 4266 4555 3444 0001 5411 6645 2246 7764 4466 8884 1444 1000 4111 6664 4466 7777 4666 8888 4448 1100 3111 6663 6666 7777 8666 8888 4488 1134 3311 6643 6666 7777 8666 8888 4888 1344 3331 6443 6666 5766 8662 8888 8888 3444 3333 4444 6666 2466 6644 8888 8888 6544 4335 4444 6664 6446 6446 8886 4888 6654 7456 4447 6644 6644 6466 8856 3488 6665 7766 4477 3444 6664 6666 8566 3448 6665 7776 4777 3444 6665 6666 5666 4444 6663 7776 7777 4444 6663 6666 6666 3444 6543 7766 7777 3447 6543 6664 6666 3345 5443 7665 7777 3347 5443 6644 5666 3355 4444 6655 7777 3355 4444</bitmap>
+            </tex_image>
         </tex_image_array>
-        <tex_palette_array size="9">
+        <tex_palette_array size="10">
             <tex_palette color_size="16" index="0" name="pond_on"> 7ae7 7b28 7b4a 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="1" name="swave_p_pl"> 0000 7e26 7eaa 7f2e 7dc4 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="2" name="pond_edge"> 7627 7687 7ae7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
@@ -49,8 +52,9 @@
             <tex_palette color_size="16" index="6" name="river_pl"> 7ec4 7e85 7e26 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="7" name="river_r_pl"> 71c3 7a04 7e26 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="8" name="grass02_pl"> 5b70 5b91 5fb3 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
+            <tex_palette color_size="16" index="9" name="cliff01"> 31f5 3216 3616 3637 3a58 3a9a 3ebb 42dc 46fd 0000 0000 0000 0000 0000 0000 0000</tex_palette>
         </tex_palette_array>
-        <material_array size="9">
+        <material_array size="10">
             <material alpha="31" ambient="31 31 31" depth_test_decal="off" diffuse="25 25 25" emission="0 0 0" face="front" far_clipping="off" fog_flag="on" index="0" light0="on" light1="off" light2="off" light3="off" name="pond_on" polygon_id="0" polygon_mode="modulate" render_1_pixel="off" shininess_table_flag="off" specular="0 0 0" tex_gen_mode="none" tex_image_idx="0" tex_palette_idx="0" tex_rotate="0.000000" tex_scale="1.000000 1.000000" tex_tiling="repeat repeat" tex_translate="0.000000 0.000000" translucent_update_depth="off" wire_mode="off"/>
             <material alpha="31" ambient="31 31 31" depth_test_decal="off" diffuse="25 25 25" emission="0 0 0" face="front" far_clipping="off" fog_flag="on" index="1" light0="on" light1="off" light2="off" light3="off" name="swave_p" polygon_id="0" polygon_mode="modulate" render_1_pixel="off" shininess_table_flag="off" specular="0 0 0" tex_gen_mode="none" tex_image_idx="1" tex_palette_idx="1" tex_rotate="0.000000" tex_scale="1.000000 1.000000" tex_tiling="repeat repeat" tex_translate="0.000000 0.000000" translucent_update_depth="off" wire_mode="off"/>
             <material alpha="31" ambient="31 31 31" depth_test_decal="off" diffuse="25 25 25" emission="0 0 0" face="front" far_clipping="off" fog_flag="on" index="2" light0="on" light1="off" light2="off" light3="off" name="pond_edge" polygon_id="0" polygon_mode="modulate" render_1_pixel="off" shininess_table_flag="off" specular="0 0 0" tex_gen_mode="none" tex_image_idx="2" tex_palette_idx="2" tex_rotate="0.000000" tex_scale="1.000000 1.000000" tex_tiling="repeat repeat" tex_translate="0.000000 0.000000" translucent_update_depth="off" wire_mode="off"/>
@@ -60,11 +64,12 @@
             <material alpha="31" ambient="31 31 31" depth_test_decal="off" diffuse="25 25 25" emission="0 0 0" face="front" far_clipping="off" fog_flag="on" index="6" light0="on" light1="off" light2="off" light3="off" name="river" polygon_id="0" polygon_mode="modulate" render_1_pixel="off" shininess_table_flag="off" specular="0 0 0" tex_gen_mode="none" tex_image_idx="6" tex_palette_idx="6" tex_rotate="0.000000" tex_scale="1.000000 1.000000" tex_tiling="repeat repeat" tex_translate="0.000000 0.000000" translucent_update_depth="off" wire_mode="off"/>
             <material alpha="31" ambient="31 31 31" depth_test_decal="off" diffuse="25 25 25" emission="0 0 0" face="front" far_clipping="off" fog_flag="on" index="7" light0="on" light1="off" light2="off" light3="off" name="river_r" polygon_id="0" polygon_mode="modulate" render_1_pixel="off" shininess_table_flag="off" specular="0 0 0" tex_gen_mode="none" tex_image_idx="7" tex_palette_idx="7" tex_rotate="0.000000" tex_scale="1.000000 1.000000" tex_tiling="repeat repeat" tex_translate="0.000000 0.000000" translucent_update_depth="off" wire_mode="off"/>
             <material alpha="31" ambient="31 31 31" depth_test_decal="off" diffuse="25 25 25" emission="0 0 0" face="front" far_clipping="off" fog_flag="on" index="8" light0="on" light1="off" light2="off" light3="off" name="grass02" polygon_id="0" polygon_mode="modulate" render_1_pixel="off" shininess_table_flag="off" specular="0 0 0" tex_gen_mode="none" tex_image_idx="8" tex_palette_idx="8" tex_rotate="0.000000" tex_scale="1.000000 1.000000" tex_tiling="repeat repeat" tex_translate="0.000000 0.000000" translucent_update_depth="off" wire_mode="off"/>
+            <material alpha="31" ambient="31 31 31" depth_test_decal="off" diffuse="25 25 25" emission="0 0 0" face="front" far_clipping="off" fog_flag="on" index="9" light0="on" light1="off" light2="off" light3="off" name="cliff01" polygon_id="0" polygon_mode="modulate" render_1_pixel="off" shininess_table_flag="off" specular="0 0 0" tex_gen_mode="none" tex_image_idx="9" tex_palette_idx="9" tex_rotate="0.000000" tex_scale="1.000000 1.000000" tex_tiling="repeat repeat" tex_translate="0.000000 0.000000" translucent_update_depth="off" wire_mode="off"/>
         </material_array>
         <matrix_array size="1">
             <matrix index="0" mtx_weight="1" node_idx="0"/>
         </matrix_array>
-        <polygon_array size="1">
+        <polygon_array size="2">
             <polygon clr_flag="off" index="0" mtx_prim_size="1" name="polygon0" nrm_flag="on" polygon_size="1" quad_size="1" tex_flag="on" triangle_size="0" vertex_size="4" volume_max="3.000000 3.000000 3.000000" volume_min="3.000000 3.000000 3.000000" volume_r="3.000000">
                 <mtx_prim index="0">
                     <mtx_list size="1">0</mtx_list>
@@ -84,12 +89,40 @@
                     </primitive_array>
                 </mtx_prim>
             </polygon>
+            <polygon clr_flag="off" index="1" mtx_prim_size="1" name="polygon1" nrm_flag="on" polygon_size="2" quad_size="2" tex_flag="on" triangle_size="0" vertex_size="8" volume_max="3.000000 3.000000 3.000000" volume_min="3.000000 3.000000 3.000000" volume_r="3.000000">
+                <mtx_prim index="0">
+                    <mtx_list size="1">0</mtx_list>
+                    <primitive_array size="1">
+                        <primitive index="0" type="quads" vertex_size="8">
+                            <mtx idx="0"/>
+                            <tex st="416.000000 -511.999969"/>
+                            <nrm xyz="0.000000 0.997000 0.000000"/>
+                            <pos_xyz xyz="2.500000 0.000000 -4.000000"/>
+                            <tex st="400.000000 -511.999969"/>
+                            <pos_xz xz="2.250000 -4.000000"/>
+                            <tex st="400.000000 -495.999969"/>
+                            <pos_yz yz="0.000000 -3.750000"/>
+                            <tex st="416.000000 -495.999969"/>
+                            <pos_xz xz="2.500000 -3.750000"/>
+                            <tex st="512.000000 -511.999969"/>
+                            <pos_xyz xyz="4.000000 0.000000 -4.000000"/>
+                            <tex st="480.000000 -511.999969"/>
+                            <pos_xz xz="3.500000 -4.000000"/>
+                            <tex st="480.000000 -495.999969"/>
+                            <pos_yz yz="0.000000 -3.750000"/>
+                            <tex st="512.000000 -495.999969"/>
+                            <pos_xz xz="4.000000 -3.750000"/>
+                        </primitive>
+                    </primitive_array>
+                </mtx_prim>
+            </polygon>
         </polygon_array>
         <node_array size="1">
-            <node billboard="off" brother_next="-1" brother_prev="-1" child="-1" display_size="1" draw_mtx="on" index="0" kind="mesh" name="world_root" parent="-1" polygon_size="1" quad_size="1" rotate="0.000000 0.000000 0.000000" scale="1.000000 1.000000 1.000000" translate="0.000000 0.000000 0.000000" triangle_size="0" vertex_size="4" visibility="on" volume_max="0.000000 0.000000 0.000000" volume_min="0.000000 0.000000 0.000000" volume_r="0.000000">
+            <node billboard="off" brother_next="-1" brother_prev="-1" child="-1" display_size="2" draw_mtx="on" index="0" kind="mesh" name="world_root" parent="-1" polygon_size="3" quad_size="3" rotate="0.000000 0.000000 0.000000" scale="1.000000 1.000000 1.000000" translate="0.000000 0.000000 0.000000" triangle_size="0" vertex_size="12" visibility="on" volume_max="0.000000 0.000000 0.000000" volume_min="0.000000 0.000000 0.000000" volume_r="0.000000">
                 <display index="0" material="8" polygon="0" priority="0"/>
+                <display index="1" material="9" polygon="1" priority="0"/>
             </node>
         </node_array>
-        <output_info polygon_size="1" quad_size="1" triangle_size="0" vertex_size="4"/>
+        <output_info polygon_size="3" quad_size="3" triangle_size="0" vertex_size="12"/>
     </body>
 </imd>
