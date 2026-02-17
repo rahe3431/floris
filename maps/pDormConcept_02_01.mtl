@@ -1,0 +1,16 @@
+newmtl road01_r
+map_Kd road01_r.png
+map_d road01_r.png
+
+newmtl road01
+map_Kd road01.png
+map_d road01.png
+
+newmtl tree01_un
+map_Kd tree01_un.png
+map_d tree01_un.png
+
+newmtl tree01
+map_Kd tree01.png
+map_d tree01.png
+
