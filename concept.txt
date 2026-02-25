@@ -1,0 +1,10 @@
+PERMUTATIONS:
+	1. Avatar Chloe, Win-State 0
+	2. Avatar Max, Win-State 0
+	3. Avatar Chloe, Win-State 1
+	4. Avatar Max, Win-State 1
+	
+Start with random avatar, Win-State 0. Once you win the game with that avatar, it switches to the other but the changed winstate replays the story with slight alterations to the maps, dialogue, and the B-plot-option1 twist is swapped for B-plot-option2 twist.
+
+	Construction: build two linear B-plots, and include win-state and player character flags in map/event design for each
+	
