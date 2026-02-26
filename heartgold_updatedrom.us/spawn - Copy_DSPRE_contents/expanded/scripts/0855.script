@@ -1,0 +1,24 @@
+/*
+ * DSPRE Script File
+ * Rom ID: spawn - Copy
+ * Game: HGSS
+ * File: 0855
+ * Generated: 2/25/2026 10:01:00 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+End
+
+Script 2:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	Message 0
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+//===== FUNCTIONS =====//
+//===== ACTIONS =====//

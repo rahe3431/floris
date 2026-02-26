@@ -1,0 +1,50 @@
+# Key: 0x3AD4
+PLAYER: {STRVAR_1, 3, 0, 0}
+This document certifies that\nyou have made the great\nachievement of catching all\nthe Pokémon in Johto.
+This document certifies\nthat you have successfully\ncompleted your\nNational Pokédex.
+GAME FREAK
+{ALN_CENTER, 0}{STRVAR_1, 3, 0, 0} and {STRVAR_1, 1, 1, 0}
+{ALN_CENTER, 0}Fighting together, walking\n{ALN_CENTER, 0}together. Forging a bond that\n{ALN_CENTER, 0}cannot be broken and will go\n{ALN_CENTER, 0}on continually into eternity.\n{ALN_CENTER, 0}This bond is illuminated here.
+meow
+MEOE
+:3
+Alyssa: \x0000Huh?\n Oh, hey Max.\r I was studying.\n Did you remember to ask\nMr. Peterson what readings I need to do\nfrom the days I missed?\x0000
+Max: \x0000Uhhhhhhhh, mhm!\nYeah, I totally did!\n Chapters 3 and 4!\x0000\r (I hope that’s right... I kinda zoned out in Geometry...)
+Alyssa: \x0000That doesn’t sound right,\nthat’s what we read last week.\rI feel like Chapter 8 looks like\nwhat he said would be on the test.
+Alyssa: \x0000Got it!\nThanks Max!\x0000
+Alyssa: \x0000I guess I’ll ask him tomorrow, then.\x0000
+Give the flower to Alyssa?
+Alyssa: \x0000Neat, I needed a bookmark. Thanks.\x0000
+Alyssa: \x0000Thanks for the flower, Max.
+Warren: \x0000Ack!\rI wasn’t watching you from the bushes!\nSorry!\nWe should go to see a drive-in movie!\rUnless you don’t want to!\nActually, nevermind!\nI think someone is calling my name!\x0000
+Chloe: \x0000Max!\nHurry up and be done with class\nso we can go to the junkyard!\x0000
+~Warren is nice, but he can sometimes be a bit awkward.~
+Chloe: \x0000Max!\nHurry up and be done with class\nso we can go to the junkyard!\x0000
+Chloe: \x0000I’ll be waiting here!\x0000 
+Give the flower to Chloe?
+Chloe: \x0000A flower? For moi?\x0000
+Max: \x0000Only the finest tribute for the fairest maiden!\x0000
+Chloe: \x0000Ha! I knew I was fairest\nin all the land,\nand now I have a dead plant to prove it!\x0000
+*Chloe twirls the flower and sniffs it.\rWhen she sees you watching,\nshe jokingly flutters her eyelashes.* 
+~I, um.\nWowser, she really is so pretty.\rWhere was I going just now?~
+*Kate seems deep in thought* 
+Give the flower to Kate?
+Kate: \x0000Nature is so beautiful.\nBut so harsh.\r*Sigh*\nThanks again for the flower, though.
+Kate: \x0000Thanks Max.\nThis brightened my day. Really.\x0000
+Kris: \x0000Get lost, loser.\x0000
+Give flower to Kris?
+*Kris pointedly ignores you*
+Hayden: \x0000Hey Max.\nLet’s chat later, I’m practicing my spiral.\x0000
+Samuel: \x0000Hi Max.\nSamuel hasn’t seen any squirrels today.\nWhere have they gone?\x0000
+Samuel: \x0000Samuel hasn’t seen any squirrels today.\rBut Samuel has the unusual feeling\nthat Max knew that already.\x0000
+Victoria: \x0000Well hello there, Messy Max.\nI suppose you want to get inside?\rUnfortunately I don’t plan on moving from this spot\nuntil Courtney gets out of class,\nso you’ll have to come back later.\x0000
+Victoria: \x0000OW!!!\x0000
+*Victoria swats at her neck.\nA stunned bee falls out of her shirt collar\nand onto the ground,\nwhere it writhes helplessly.*
+Victoria: \x0000Shit! That hurt!\rWahh!\x0000
+Max: \x0000Are you alright?\x0000
+*Victoria holds her hand over the bee sting.\rShe has become a blubbering mess.\rYou don’t think she’s feeling inclined\nto move and let you by.*
+Warn Victoria about the bee?
+Max: \x0000Victoria!\nThere’s a bee on your neck!\x0000
+Victoria: \x0000Eeeek!\x0000
+*Victoria flails her arms\nand yanks at her shirt collar.\rThe bee is thrown free\nand Victoria somehow does not get stung*
+Victoria: \x0000Wow. Thanks Max.\nI suppose you want to get into the dorm.\rMy key broke off in the lock\nand now I have to wait\non these dumb steps for the stupid locksmith\nto get here and fix it.\x0000

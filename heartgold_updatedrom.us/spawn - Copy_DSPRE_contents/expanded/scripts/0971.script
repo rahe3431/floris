@@ -1,0 +1,70 @@
+/*
+ * DSPRE Script File
+ * Rom ID: spawn - Copy
+ * Game: HGSS
+ * File: 0971
+ * Generated: 2/25/2026 10:01:00 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	LockAll
+	FacePlayer
+	Movement Overworld.4 Action#1
+	WaitMovement
+	Message 0
+	YesNoBox 0x800C
+	CloseMessage
+	CompareVarValue 0x800C 0
+	CallIf EQUAL Function#1
+	Message 3
+	CloseMessage
+	CloseTouchScreen
+	ReleaseAll
+End
+
+Script 2:
+	MecScript
+	LockAll
+	Message 9
+	OpenTouchScreen
+	YesNoTouchScreen 0x800C
+	CloseTouchScreen
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#2
+End
+
+Script 3:
+	MecScript
+	LockAll
+	CMD_151
+	Message 12
+	CMD_257 94
+	CloseMessage
+	CMD_587
+	ExitBattleRoom
+	ReleaseAll
+End
+
+//===== FUNCTIONS =====//
+Function 1:
+	FadeScreen 6 1 0 0
+	WaitFadeScreen
+	RemoveOW Overworld.4
+	FadeScreen 6 1 0 0
+	WaitFadeScreen
+	SetFlag 2551
+	ReleaseAll
+End
+
+Function 2:
+	CloseMessage
+	ReleaseAll
+End
+
+//===== ACTIONS =====//
+Action 1:
+End
+
