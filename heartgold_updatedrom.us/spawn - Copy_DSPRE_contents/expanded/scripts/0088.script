@@ -3,7 +3,7 @@
  * Rom ID: spawn - Copy
  * Game: HGSS
  * File: 0088
- * Generated: 2/25/2026 11:42:41 PM
+ * Generated: 2/26/2026 12:20:30 AM
  */
 
 //===== SCRIPTS =====//
@@ -150,6 +150,57 @@ Script 11:
 	CompareVarValue 0x4000 0
 	JumpIf EQUAL Function#12
 	SetVar 0x4003 1
+End
+
+Script 12:
+End
+
+Script 13:
+	LockAll
+	FacePlayer
+	Message 35
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Script 14:
+	LockAll
+	FacePlayer
+	Message 17
+	WaitButton
+	Message 19
+	CloseMessage
+	ClearFlag 2553
+	RemoveOW Overworld.3
+	ReleaseAll
+End
+
+Script 15:
+	LockAll
+	FacePlayer
+	Message 32
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Script 16:
+	LockAll
+	FacePlayer
+	Message 36
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Script 17:
+End
+
+Script 18:
+End
+
+Script 19:
 End
 
 //===== FUNCTIONS =====//
@@ -424,85 +475,85 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	EmoteExclamation 0x1
+		EmoteExclamation 0x1
 End
 
 Action 2:
-	WalkEast2 0x2
-	LockDir 0x1
-	WalkWest2 0x2
-	ReleaseDir 0x1
+		WalkEast2 0x2
+		LockDir 0x1
+		WalkWest2 0x2
+		ReleaseDir 0x1
 End
 
 Action 3:
-	LockDir 0x1
-	WalkEast2 0x2
-	ReleaseDir 0x1
+		LockDir 0x1
+		WalkEast2 0x2
+		ReleaseDir 0x1
 End
 
 Action 4:
-	Delay8 0x3
-	FaceSouth 0x2
-	WalkSouth8 0x1
-	Delay8 0x5
+		Delay8 0x3
+		FaceSouth 0x2
+		WalkSouth8 0x1
+		Delay8 0x5
 End
 
 Action 5:
-	Delay8 0x3
-	FaceSouth 0x2
+		Delay8 0x3
+		FaceSouth 0x2
 End
 
 Action 6:
-	FaceNorth 0x2
-	WalkNorth8 0x4
-	FaceEast 0x2
-	WalkEast8 0x1
-	FaceNorth 0x2
-	Delay8 0x5
+		FaceNorth 0x2
+		WalkNorth8 0x4
+		FaceEast 0x2
+		WalkEast8 0x1
+		FaceNorth 0x2
+		Delay8 0x5
 End
 
 Action 7:
-	Delay8 0x1
-	WalkNorth8 0x4
+		Delay8 0x1
+		WalkNorth8 0x4
 End
 
 Action 8:
-	Delay8 0x3
-	FaceNorth 0x2
-	WalkNorth8 0x2
+		Delay8 0x3
+		FaceNorth 0x2
+		WalkNorth8 0x2
 End
 
 Action 9:
-	EmoteExclamation 0x1
-	Delay8 0x1
-	LockDir 0x1
-	WalkWest2 0x2
-	ReleaseDir 0x1
+		EmoteExclamation 0x1
+		Delay8 0x1
+		LockDir 0x1
+		WalkWest2 0x2
+		ReleaseDir 0x1
 End
 
 Action 10:
-	WalkNorth8 0x1
-	FaceEast 0x2
-	Delay8 0x2
+		WalkNorth8 0x1
+		FaceEast 0x2
+		Delay8 0x2
 End
 
 Action 11:
-	FaceEast 0x2
-	EmoteExclamation 0x1
+		FaceEast 0x2
+		EmoteExclamation 0x1
 End
 
 Action 12:
-	WalkEast8 0x1
+		WalkEast8 0x1
 End
 
 Action 13:
-	WalkEast8 0x1
+		WalkEast8 0x1
 End
 
 Action 14:
-	Delay8 0x3
-	WalkNorth8 0x2
-	FaceEast 0x2
-	WalkEast8 0x1
+		Delay8 0x3
+		WalkNorth8 0x2
+		FaceEast 0x2
+		WalkEast8 0x1
 End
 
