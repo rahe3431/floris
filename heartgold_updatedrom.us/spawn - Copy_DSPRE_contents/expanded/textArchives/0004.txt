@@ -15,7 +15,7 @@ Alyssa: \x0000Got it!\nThanks Max!\x0000
 Alyssa: \x0000I guess I’ll ask him tomorrow, then.\x0000
 Give the flower to Alyssa?
 Alyssa: \x0000Neat, I needed a bookmark. Thanks.\x0000
-Alyssa: \x0000Thanks for the flower, Max.
+Alyssa: \x0000Thanks for the flower, Max."
 Warren: \x0000Ack!\rI wasn’t watching you from the bushes!\nSorry!\nWe should go to see a drive-in movie!\rUnless you don’t want to!\nActually, nevermind!\nI think someone is calling my name!\x0000
 Chloe: \x0000Max!\nHurry up and be done with class\nso we can go to the junkyard!\x0000
 ~Warren is nice, but he can sometimes be a bit awkward.~
@@ -48,3 +48,6 @@ Max: \x0000Victoria!\nThere’s a bee on your neck!\x0000
 Victoria: \x0000Eeeek!\x0000
 *Victoria flails her arms\nand yanks at her shirt collar.\rThe bee is thrown free\nand Victoria somehow does not get stung*
 Victoria: \x0000Wow. Thanks Max.\nI suppose you want to get into the dorm.\rMy key broke off in the lock\nand now I have to wait\non these dumb steps for the stupid locksmith\nto get here and fix it.\x0000
+...
+Tell Alyssa the homework assignment?
+~I feel like that conversation could have gone better...~

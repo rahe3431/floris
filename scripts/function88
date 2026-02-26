@@ -172,46 +172,99 @@ Function 29:
 	Message 12
 Jump Function#9
 
-Function 30:
+Function 30: //DialogueAlyssa HasFlowerAlyssa HadConvo
+	Message 16
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 31: //DialogueAlyssa GiveFlower
+    setVar 0x4001 1 //set AlyssaHasFlower=1
+    setVar 0x4000 0 //set PossessFlower=0
+    Message 15
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 32: //DialogueAlyssa HadConvo NoFlower
+	Message 49
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 33: //DialogueAlyssa NoConvo Main
+	Message 9
+	WaitButton
+	CloseMessage
+    Jump Function#37 //go to the tell homework? prompt function
+	ReleaseAll
+End
+
+Function 34: //DialogueAlyssa KnowFuture TellHomework
+	Message 16
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 35: //DialogueAlyssa DontKnowFuture TellHomework
+	Message 10
+	WaitButton
+	CloseMessage
+    Message 11
+	WaitButton
+	CloseMessage
+    Message 51
+	WaitButton
+    CloseMessage
+	ReleaseAll
+    setVar 0x4002 1//set KnowFutureAlyssa=1
+End
+
+Function 36: //PromptAlyssa GiveFlower?
+    Message 14
+	WaitButton
+    YesNoBox 0x800C //give flower? 
+    CompareVarValue 0x800C 1 //giveflower
+	JumpIf EQUAL Function#31
+    CompareVarValue 0x800C 0 //dontgiveflower
+	JumpIf EQUAL Function#33
+	CloseMessage
+	ReleaseAll
+End
+
+Function 37: //PromptAlyssa TellHomework?
+	Message 50
+	WaitButton
+	CloseMessage
+    YesNoBox 0x800C //tell homework? 
+    CompareVarValue 0x800C 1 //tellHw
+	JumpIf EQUAL Function#40
+    CompareVarValue 0x800C 0 //dontTellHomework
+	JumpIf EQUAL Function#38 
+	ReleaseAll
+End
+
+Function 38: //DialogueAlyssa DontTellHomework
 	Message 13
 	WaitButton
 	CloseMessage
 	ReleaseAll
 End
 
+Function 39: //LogicAlyssa HasFlowerAlyssa check
+	CompareVarValue 0x4001 1 //PossessFlower
+	JumpIf EQUAL Function#36 //Prompt GiveFlower? function
+	CompareVarValue 0x4001 0 //dontPossessFlower
+    JumpIf EQUAL Function#33 //
+End
 
-vars
-special
-0x8000
-0x8001
-0x8002
-0x8003
-0x8004
-0x8005
-0x8006
-0x8007
-0x8008
-0x8009
-0x800A
-0x800B
-
-temp
-0x4000
-0x4001
-0x4002
-0x4003
-0x4004
-0x4005
-0x4006
-0x4007
-0x4008
-0x4009
-0x400A
-0x400B
-0x400C
-0x400D
-0x400E
-0x400F
-0x4010
-0x4011
-0x4012
+Function 40: //LogicAlyssa KnowFutureAlyssa check
+	CompareVarValue 0x4002 1 //KnowFuture
+	JumpIf EQUAL Function#34//dialogue tellHomework KnowFuture function 
+	CompareVarValue 0x4002 0 //dontKnow
+    JumpIf EQUAL Function#35 //dialogue tellHomework DontKnowFuture function
+End
