@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="scriptInteractAlyssa"/>
+        <attribute name="authors" value="vvrea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 04:35:38 PM"/>
+        <attribute name="created" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzAzOjEwOjU4IFBNOzI3OTg="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA0OjM1OjM4IFBNOzEyOzI5NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="logicCanGiveFlowerAlyssa"/>
+            <if expression="HadConvoAlyssa">
+                <then/>
+                <else/>
+            </if>
+        </body>
+    </function>
+    <function name="actionGiveFlowerAlyssa" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="HasFlowerAlyssa" expression="1"/>
+            <assign variable="PossessFlower" expression="0"/>
+            <call expression="logicCanGiveFlowerAlyssa"/>
+        </body>
+    </function>
+    <function name="checkPossessFlower" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueAlyssaAskTomorrow" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueAlyssaGiveFlower" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueAlyssaHomeworkStudy" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueAlyssaSaysNothing" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueAlyssaThankFlower" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="actionTurnToPlayer"/>
+            <output expression="Thanks for the flower, Max!" newline="True"/>
+        </body>
+    </function>
+    <function name="dialogueAlyssaThankHomework" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueAlyssaWrongHomework" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueMaxTellHomeworkDontKnowFuture" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueMaxTellHomeworkKnowFuture" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="logicCanGiveFlowerAlyssa" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="PossessFlower">
+                <then>
+                    <call expression="promptGiveFlowerAlyssa"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+    <function name="logicDoFlowerConvo" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="PossessFlower">
+                <then>
+                    <call expression="logicDoFlowerConvo"/>
+                </then>
+                <else>
+                    <call expression="logicHadConvoAlyssa"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="logicHadConvoAlyssa" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="PossessFlower">
+                <then/>
+                <else/>
+            </if>
+        </body>
+    </function>
+    <function name="logicKnowFutureAlyssa" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="promptGiveFlowerAlyssa" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="0x800C" expression="0"/>
+            <input variable="YesNo"/>
+            <if expression="">
+                <then>
+                    <call expression="actionGiveFlowerAlyssa"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+    <function name="promptTellHomeworkAlyssa" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>
