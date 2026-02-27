@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="scriptInteractSamuel"/>
+        <attribute name="authors" value="vvrea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 06:12:41 PM"/>
+        <attribute name="created" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjAzOjE5IFBNOzI4MDA="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjEyOjQxIFBNOzEwOzI5NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Note: Rewind script sets KnowFutureSamuel=1 when HadConvoSamuel=1"/>
+            <if expression="KnowFutureSamuel">
+                <then>
+                    <call expression=""/>
+                </then>
+                <else>
+                    <call expression=""/>
+                </else>
+            </if>
+            <assign variable="HadConvoSamuel" expression="1"/>
+        </body>
+    </function>
+    <function name="dialogueSamuelSquirrelsDontKnowFuture" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="37" newline="True"/>
+        </body>
+    </function>
+    <function name="dialogueSamuelSquirrelsKnowFuture" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="36" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="scriptInteractHayden"/>
+        <attribute name="authors" value="vvrea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 06:22:02 PM"/>
+        <attribute name="created" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjIwOjM1IFBNOzI3OTc="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjIyOjAyIFBNOzQ7MjkwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="lockAll"/>
+            <call expression="facePlayer"/>
+            <output expression="35" newline="True"/>
+            <call expression="releaseAll"/>
+        </body>
+    </function>
+</flowgorithm>

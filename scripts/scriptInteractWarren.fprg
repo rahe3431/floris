@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="scriptInteractWarren"/>
+        <attribute name="authors" value="vvrea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 06:19:45 PM"/>
+        <attribute name="created" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjE0OjIzIFBNOzI3OTc="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjE5OjQ1IFBNOzc7MjkyMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="actionAlert"/>
+            <output expression="17" newline="True"/>
+            <call expression="moveDown(4)"/>
+            <call expression="moveRight(6)"/>
+            <call expression="vanishWarren"/>
+            <output expression="19" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

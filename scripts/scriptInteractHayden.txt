@@ -1,0 +1,6 @@
+Function Main
+    Call lockAll
+    Call facePlayer
+    Output 35
+    Call releaseAll
+End

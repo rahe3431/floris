@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="scriptInteractKris"/>
+        <attribute name="authors" value="vvrea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 06:31:34 PM"/>
+        <attribute name="created" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjIzOjAwIFBNOzI3OTI="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjI0OjE3IFBNOzE7dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzAzOjEwOjU4IFBNO3NjcmlwdEludGVyYWN0QWx5c3NhLmZwcmc7ODQxMA=="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjMxOjM0IFBNOzY7MjkxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="PossessFlower">
+                <then>
+                    <call expression="promptGiveFlowerKris"/>
+                </then>
+                <else>
+                    <output expression="34" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="promptGiveFlowerKris" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="YesNo" expression="0"/>
+            <output expression="33" newline="True"/>
+            <input variable="YesNo"/>
+            <if expression="YesNo">
+                <then>
+                    <output expression="34" newline="True"/>
+                </then>
+                <else>
+                    <output expression="32" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

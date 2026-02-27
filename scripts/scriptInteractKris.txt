@@ -1,0 +1,18 @@
+Function Main
+    If PossessFlower
+        Call promptGiveFlowerKris
+    Else
+        Output 34
+    End
+End
+
+Function promptGiveFlowerKris
+    Assign YesNo = 0
+    Output 33
+    Input YesNo
+    If YesNo
+        Output 34
+    Else
+        Output 32
+    End
+End

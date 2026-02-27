@@ -1,0 +1,8 @@
+Function Main
+    Call actionAlert
+    Output 17
+    Call moveDown(4)
+    Call moveRight(6)
+    Call vanishWarren
+    Output 19
+End

@@ -1,0 +1,17 @@
+Function Main
+    ... Note: Rewind script sets KnowFutureSamuel=1 when HadConvoSamuel=1
+    If KnowFutureSamuel
+        Call 
+    Else
+        Call 
+    End
+    Assign HadConvoSamuel = 1
+End
+
+Function dialogueSamuelSquirrelsDontKnowFuture
+    Output 37
+End
+
+Function dialogueSamuelSquirrelsKnowFuture
+    Output 36
+End
