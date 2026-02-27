@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="scriptInteractKate"/>
+        <attribute name="authors" value="vvrea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 11:26:57 PM"/>
+        <attribute name="created" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzExOjAyOjMyIFBNOzI3OTA="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzExOjI2OjU3IFBNOzIzOzI5NjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="HasFlowerKate">
+                <then>
+                    <call expression="dialogueKateNature"/>
+                </then>
+                <else>
+                    <call expression="dialogueKateThought"/>
+                </else>
+            </if>
+            <call expression="logicCanGiveFlowerKate"/>
+        </body>
+    </function>
+    <function name="actionGiveFlowerKate" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="PossessFlower" expression="0"/>
+            <assign variable="HasFlowerKate" expression="1"/>
+            <call expression="dialogueKateReceiveFlower"/>
+        </body>
+    </function>
+    <function name="dialogueKateNature" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueKateReceiveFlower" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="31" newline="True"/>
+        </body>
+    </function>
+    <function name="dialogueKateThought" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="logicCanGiveFlowerKate" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="PossessFlower">
+                <then>
+                    <call expression="promptGiveFlowerKate"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+    <function name="promptGiveFlowerKate" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="YesNo" expression="0"/>
+            <output expression="29" newline="True"/>
+            <input variable="YesNo"/>
+            <if expression="YesNo">
+                <then>
+                    <call expression="actionGiveFlowerKate"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,39 @@
+Function Main
+    If HasFlowerKate
+        Call dialogueKateNature
+    Else
+        Call dialogueKateThought
+    End
+    Call logicCanGiveFlowerKate
+End
+
+Function actionGiveFlowerKate
+    Assign PossessFlower = 0
+    Assign HasFlowerKate = 1
+    Call dialogueKateReceiveFlower
+End
+
+Function dialogueKateNature
+End
+
+Function dialogueKateReceiveFlower
+    Output 31
+End
+
+Function dialogueKateThought
+End
+
+Function logicCanGiveFlowerKate
+    If PossessFlower
+        Call promptGiveFlowerKate
+    End
+End
+
+Function promptGiveFlowerKate
+    Assign YesNo = 0
+    Output 29
+    Input YesNo
+    If YesNo
+        Call actionGiveFlowerKate
+    End
+End

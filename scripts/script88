@@ -132,13 +132,98 @@ Script 10:
 Jump Function#9
 
 Script 11: //Alyssa
-	LockAll
-	FacePlayer
-	CompareVarValue 0x4003 1 //HadConvoAlyssa
-	JumpIf EQUAL Function#32//hadconvo dialogue function
-	CompareVarValue 0x4000 1 //PossessFlower
-	JumpIf EQUAL Function#39//flower convo function
-	CompareVarValue 0x4000 0 //dontPossessFlower
-	JumpIf EQUAL Function#33//main convo function
-	setVar 0x4003 1//set HadConvo=1
+    // Call lockAll
+    // Call actionFacePlayer
+    // Call logicCanGiveFlowerAlyssa
+    // If HadConvoAlyssa
+    //     If HasFlowerAlyssa
+    //         Call dialogueAlyssaThankFlower
+    //     Else
+    //         Call dialogueAlyssaSaysNothing
+    //     End
+    // Else
+    //     Call logicKnowFutureAlyssa
+    //     Assign HadConvo = 1
+    // End
+    // Call releaseAll
+End
+
+Script 12: //Chloe
+    // If HadConvoChloe
+    // Else
+    //     Call dialogueChloeHurry
+    // End
+    // Call logicCanGiveFlowerChloe
+    // If HadConvoChloe
+    //     If HasFlowerChloe
+    //         Call dialogueChloeGooGooEyes
+    //     Else
+    //         Call dialogueChloeWaiting
+    //     End
+    // Else
+    //     Assign HadConvoChloe = 1
+    // End
+End
+
+Script 13: //Hayden
+    // Call lockAll
+    // Call facePlayer
+    // Output 35
+    // Call releaseAll
+End
+
+Script 14: //Kate
+    // If HasFlowerKate
+    //     Call dialogueKateNature
+    // Else
+    //     Call dialogueKateThought
+    // End
+    // Call logicCanGiveFlowerKate
+End
+
+Script 15: //Kris
+    // If PossessFlower
+    //     Call promptGiveFlowerKris
+    // Else
+    //     Output 34
+    // End
+End
+
+Script 16: //Samuel
+    // ... Note: Rewind script sets KnowFutureSamuel=1 when HadConvoSamuel=1
+    // If KnowFutureSamuel
+    //     Call 
+    // Else
+    //     Call 
+    // End
+    // Assign HadConvoSamuel = 1
+End
+
+Script 17: //Victoria
+    // If HadConvoVictoria
+    //     If IsStungVictoria
+    //         Output 43
+    //     Else
+    //         Output 48
+    //     End
+    // Else
+    //     If KnowFutureVictoria
+    //         Call promptWarnBee
+    //     Else
+    //         Call dialogueVictoriaHello
+    //         Call dialogueVictoriaStung
+    //         Assign IsStungVictoria = 1
+    //         Assign KnowFutureVictoria = 1
+    //     End
+    //     Assign HadConvoVictoria = 1
+    // End
+End
+
+Script 18: //Warren
+    // Call actionAlert
+    // Output 17
+    // Call moveDown(4)
+    // Call moveRight(6)
+    // Call vanishWarren
+    // Output 19
 End

@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="scriptInteractVictoria"/>
+        <attribute name="authors" value="vvrea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 11:56:15 PM"/>
+        <attribute name="created" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzExOjI3OjU5IFBNOzI4MDY="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzExOjU2OjE1IFBNOzI2OzI5NjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="HadConvoVictoria">
+                <then>
+                    <if expression="IsStungVictoria">
+                        <then>
+                            <output expression="43" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="48" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="KnowFutureVictoria">
+                        <then>
+                            <call expression="promptWarnBee"/>
+                        </then>
+                        <else>
+                            <call expression="dialogueVictoriaHello"/>
+                            <call expression="dialogueVictoriaStung"/>
+                            <assign variable="IsStungVictoria" expression="1"/>
+                            <assign variable="KnowFutureVictoria" expression="1"/>
+                        </else>
+                    </if>
+                    <assign variable="HadConvoVictoria" expression="1"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="dialogueMaxWarn" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="45" newline="True"/>
+            <output expression="46" newline="True"/>
+            <output expression="47" newline="True"/>
+            <output expression="48" newline="True"/>
+        </body>
+    </function>
+    <function name="dialogueVicStung" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueVicThanks" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueVictoriaFlail" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="dialogueVictoriaHello" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="38" newline="True"/>
+        </body>
+    </function>
+    <function name="dialogueWarn" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="promptWarnBee" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="YesNo" expression="0"/>
+            <output expression="44" newline="True"/>
+            <input variable="YesNo"/>
+            <if expression="YesNo">
+                <then>
+                    <call expression="dialogueMaxWarn"/>
+                </then>
+                <else>
+                    <call expression="dialogueVicStung"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

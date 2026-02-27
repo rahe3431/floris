@@ -268,3 +268,257 @@ Function 40: //LogicAlyssa KnowFutureAlyssa check
 	CompareVarValue 0x4002 0 //dontKnow
     JumpIf EQUAL Function#35 //dialogue tellHomework DontKnowFuture function
 End
+
+//functions Alyssa
+
+Function actionGiveFlowerAlyssa
+    Assign HasFlowerAlyssa = 1
+    Assign PossessFlower = 0
+    Call logicCanGiveFlowerAlyssa
+End
+
+Function dialogueAlyssaAskTomorrow
+    Output 13
+End
+
+Function dialogueAlyssaGiveFlower
+    Output 15
+End
+
+Function dialogueAlyssaHomeworkStudy
+    Output 9
+End
+
+Function dialogueAlyssaSaysNothing
+End
+
+Function dialogueAlyssaThankFlower
+    Output 16
+End
+
+Function dialogueAlyssaThankHomework
+    Output 12
+End
+
+Function dialogueAlyssaWrongHomework
+    Output 11
+End
+
+Function dialogueMaxCouldHaveGoneBetter
+    Output 49
+End
+
+Function dialogueMaxTellHomeworkDontKnowFuture
+    Output 10
+End
+
+Function dialogueMaxTellHomeworkKnowFuture
+    Output 8
+End
+
+Function logicCanGiveFlowerAlyssa
+    If PossessFlower
+        Call promptGiveFlowerAlyssa
+    End
+End
+
+Function logicDoFlowerConvo
+    If PossessFlower
+        Call logicDoFlowerConvo
+    Else
+        Call logicHadConvoAlyssa
+    End
+End
+
+Function logicHadConvoAlyssa
+    If PossessFlower
+    End
+End
+
+Function logicKnowFutureAlyssa
+    Call dialogueAlyssaHomeworkStudy
+    Call promptTellHomeworkAlyssa
+    If YesNo
+        If KnowFutureAlyssa
+            Call dialogueMaxTellHomeworkKnowFuture
+            Call dialogueAlyssaThankHomework
+        Else
+            Call dialogueMaxTellHomeworkDontKnowFuture
+            Call dialogueAlyssaWrongHomework
+            Assign KnowFutureAlyssa = 1
+            Call dialogueCouldHaveGoneBetter
+        End
+    Else
+        Call dialogueAlyssaAskTomorrow
+        Call dialogueCouldHaveGoneBetter
+    End
+End
+
+Function promptGiveFlowerAlyssa
+    Assign YesNo = 0
+    Output 14
+    Input YesNo
+    If 
+        Call actionGiveFlowerAlyssa
+    End
+End
+
+Function promptTellHomeworkAlyssa
+    Assign YesNo = 0
+    Input YesNo
+    If 
+        If KnowFutureAlyssa
+            Call dialogueMaxTellHomeworkKnowFuture
+            Call dialogueAlyssaThankHomework
+        Else
+            Call dialogueMaxTellHomeworkDontKnowFuture
+            Call dialogueAlyssaWrongHomework
+            Assign KnowFutureAlyssa = 1
+            Call dialogueCouldHaveGoneBetter
+        End
+    Else
+        Call dialogueAlyssaAskTomorrow
+        Call dialogueCouldHaveGoneBetter
+    End
+End
+
+//functions Chloe
+
+Function actionGiveFlowerChloe
+    Assign HasFlowerChloe = 1
+    Assign PossessFlower = 0
+    Call logicCanGiveFlowerChloe
+End
+
+Function dialogueChloeGooGooEyes
+    Output 26
+    Output 27
+End
+
+Function dialogueChloeHurry
+    Output 20
+End
+
+Function dialogueChloeReceiveFlower
+    Output 23
+    Output 24
+    Output 25
+End
+
+Function dialogueChloeWaiting
+    Output 21
+End
+
+Function logicCanGiveFlowerChloe
+    If PossessFlower
+        Call promptGiveFlowerChloe
+    End
+End
+
+Function promptGiveFlowerChloe
+    If 
+        Call actionGiveFlowerChloe
+    End
+End
+
+//functions Hayden
+
+//functions Kate
+
+
+Function actionGiveFlowerKate
+    Assign PossessFlower = 0
+    Assign HasFlowerKate = 1
+    Call dialogueKateReceiveFlower
+End
+
+Function dialogueKateNature
+End
+
+Function dialogueKateReceiveFlower
+    Output 31
+End
+
+Function dialogueKateThought
+End
+
+Function logicCanGiveFlowerKate
+    If PossessFlower
+        Call promptGiveFlowerKate
+    End
+End
+
+Function promptGiveFlowerKate
+    Assign YesNo = 0
+    Output 29
+    Input YesNo
+    If YesNo
+        Call actionGiveFlowerKate
+    End
+End
+
+//Functions Kris
+
+
+Function promptGiveFlowerKris
+    Assign YesNo = 0
+    Output 33
+    Input YesNo
+    If YesNo
+        Output 34
+    Else
+        Output 32
+    End
+End
+
+
+//functions Samuel
+
+
+Function dialogueSamuelSquirrelsDontKnowFuture
+    Output 37
+End
+
+Function dialogueSamuelSquirrelsKnowFuture
+    Output 36
+End
+
+
+//functions victoria
+
+Function dialogueMaxWarn
+    Output 45
+    Output 46
+    Output 47
+    Output 48
+End
+
+Function dialogueVicStung
+End
+
+Function dialogueVicThanks
+End
+
+Function dialogueVictoriaFlail
+End
+
+Function dialogueVictoriaHello
+    Output 38
+End
+
+Function dialogueWarn
+End
+
+Function promptWarnBee
+    Assign YesNo = 0
+    Output 44
+    Input YesNo
+    If YesNo
+        Call dialogueMaxWarn
+    Else
+        Call dialogueVicStung
+    End
+End
+
+//functions warren
+

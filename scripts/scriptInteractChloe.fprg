@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="scriptInteractChloe"/>
+        <attribute name="authors" value="vvrea"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 11:00:26 PM"/>
+        <attribute name="created" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA5OjQwOjMwIFBNOzI3OTc="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzExOjAwOjI2IFBNOzE5OzI5NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="HadConvoChloe">
+                <then/>
+                <else>
+                    <call expression="dialogueChloeHurry"/>
+                </else>
+            </if>
+            <call expression="logicCanGiveFlowerChloe"/>
+            <if expression="HadConvoChloe">
+                <then>
+                    <if expression="HasFlowerChloe">
+                        <then>
+                            <call expression="dialogueChloeGooGooEyes"/>
+                        </then>
+                        <else>
+                            <call expression="dialogueChloeWaiting"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="HadConvoChloe" expression="1"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="actionGiveFlowerChloe" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="HasFlowerChloe" expression="1"/>
+            <assign variable="PossessFlower" expression="0"/>
+            <call expression="logicCanGiveFlowerChloe"/>
+        </body>
+    </function>
+    <function name="dialogueChloeGooGooEyes" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="26" newline="True"/>
+            <output expression="27" newline="True"/>
+        </body>
+    </function>
+    <function name="dialogueChloeHurry" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="20" newline="True"/>
+        </body>
+    </function>
+    <function name="dialogueChloeReceiveFlower" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="23" newline="True"/>
+            <output expression="24" newline="True"/>
+            <output expression="25" newline="True"/>
+        </body>
+    </function>
+    <function name="dialogueChloeWaiting" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="21" newline="True"/>
+        </body>
+    </function>
+    <function name="logicCanGiveFlowerChloe" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="PossessFlower">
+                <then>
+                    <call expression="promptGiveFlowerChloe"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+    <function name="promptGiveFlowerChloe" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="">
+                <then>
+                    <call expression="actionGiveFlowerChloe"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
