@@ -1,0 +1,140 @@
+Script InteractAlyssa:                                                  // Function Main
+    LockAll                                                             //     Call LockAll
+    FacePlayer                                                          //     Call FacePlayer
+    Call Function#LogicCanGiveFlowerAlyssa                              //     Call LogicCanGiveFlowerAlyssa
+    CompareVarValue HadConvoAlyssa 1                                    //     If HadConvoAlyssa
+    CallIf EQUAL Function#LogicWhichDialogueHadConvo                    //         Call LogicWhichDialogueHadConvo
+    CompareVarValue HadConvoAlyssa 0                                    //     Else
+    CallIf EQUAL Function#LogicKnowFutureAlyssa                         //         Call LogicKnowFutureAlyssa 
+    SetVar HadConvoAlyssa 1                                             //         Assign HadConvo = 1
+                                                                        //     End
+    ReleaseAll                                                          //     Call ReleaseAll
+End                                                                     // End
+
+Function actionGiveFlowerAlyssa:                                        // Function actionGiveFlowerAlyssa
+    SetVar HasFlowerAlyssa 1                                            //      Assign HasFlowerAlyssa = 1
+    SetVar PossessFlower 0                                              //      Assign PossessFlower = 0
+    Call Function#dialogueAlyssaGiveFlower                              //      Call dialogueAlyssaGiveFlower
+    Call Function#LogicCanGiveFlowerAlyssa                              //      Call logicCanGiveFlowerAlyssa
+End                                                                     // End
+
+Function dialogueAlyssaAskTomorrow:                                     // Function dialogueAlyssaAskTomorrow
+    Message 13                                                          //      Output 13
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function dialogueAlyssaGiveFlower:                                      // Function dialogueAlyssaGiveFlower
+    Message 15                                                          //      Output 15
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function dialogueAlyssaHomeworkStudy:                                   // Function dialogueAlyssaHomeworkStudy
+    Message 9                                                           //      Output 9
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function dialogueAlyssaSaysNothing:                                     // Function dialogueAlyssaSaysNothing
+    Message 49                                                          //      Output 
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function dialogueAlyssaThankFlower:                                     // Function dialogueAlyssaThankFlower
+    Message 16                                                          //      Output 16
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function dialogueAlyssaThankHomework:                                   // Function dialogueAlyssaThankHomework
+    Message 12                                                          //      Output 12
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function dialogueAlyssaWrongHomework:                                   // Function dialogueAlyssaWrongHomework
+    Message 11                                                          //      Output 11
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function dialogueMaxCouldHaveGoneBetter:                                // Function dialogueMaxCouldHaveGoneBetter
+    Message 49                                                          //      Output 49
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function dialogueMaxTellHomeworkDontKnowFuture:                         // Function dialogueMaxTellHomeworkDontKnowFuture
+    Message 10                                                          //      Output 10
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function dialogueMaxTellHomeworkKnowFuture:                             // Function dialogueMaxTellHomeworkKnowFuture
+    Message 8                                                           //      Output 8
+    WaitButton                                                          //      Call WaitButton
+    CloseMessage                                                        //      Call CloseMessage
+End                                                                     // End
+
+Function logicCanGiveFlowerAlyssa:                                      // Function logicCanGiveFlowerAlyssa
+    CompareVarValue PossessFlower 1                                     //      If PossessFlower
+    CallIf EQUAL Function#promptGiveFlowerAlyssa                        //          Call promptGiveFlowerAlyssa
+                                                                        //      End
+End                                                                     // End                                                        // End
+
+Function logicKnowFutureAlyssa:                                         // Function logicKnowFutureAlyssa
+    Call Function#dialogueAlyssaHomeworkStudy                           //      Call dialogueAlyssaHomeworkStudy
+    Call Function#promptTellHomeworkAlyssa                              //      Call promptTellHomeworkAlyssa
+    CompareVarValue YesNo 0                                             //      If YesNo
+    CallIf EQUAL Function#LogicKnowFutureAlyssa                         //          Call LogicKnowFutureAlyssa
+    CompareVarValue YesNo 1                                             //      Else
+    CallIf EQUAL Function#dialogueAlyssaAskTomorrow                     //          Call dialogueAlyssaAskTomorrow
+    CallIf EQUAL Function#dialogueMaxCouldHaveGoneBetter                //          Call dialogueMaxCouldHaveGoneBetter
+                                                                        //      End
+End                                                                     // End
+
+Function LogicTellHomeworkAlyssaKnowFuture:                             // Function LogicTellHomeworkAlyssaKnowFuture
+    CompareVarValue KnowFutureAlyssa 1                                  //      If KnowFutureAlyssa
+    CallIf EQUAL Function#dialogueMaxTellHomeworkKnowFuture             //          Call dialogueMaxTellHomeworkKnowFuture
+    CallIf EQUAL Function#dialogueAlyssaThankHomework                   //          Call dialogueAlyssaThankHomework
+    CompareVarValue KnowFutureAlyssa 0                                  //      Else
+    CallIf EQUAL Function#dialogueMaxTellHomeworkDontKnowFuture         //         Call dialogueMaxTellHomeworkDontKnowFuture
+    CallIf EQUAL Function#dialogueAlyssaWrongHomework                   //          Call dialogueAlyssaWrongHomework
+    SetVar KnowFutureAlyssa 1                                           //          Assign KnowFutureAlyssa = 1
+    CallIf EQUAL Function#dialogueMaxCouldHaveGoneBetter                //          Call dialogueMaxCouldHaveGoneBetter
+                                                                        //      End
+End                                                                     // End
+
+Function LogicWhichDialogueHadConvo:                                    // Function logicWhichDialogueHadConvo
+    CompareVarValue HasFlowerAlyssa 1                                   //      If HasFlowerAlyssa
+    CallIf EQUAL Function#dialogueAlyssaThankFlower                     //          Call dialogueAlyssaThankFlower
+    CompareVarValue HasFlowerAlyssa 0                                   //      Else
+    CallIf EQUAL Function#dialogueAlyssaSaysNothing                     //          Call dialogueAlyssaSaysNothing
+                                                                        //      End
+End                                                                     // End
+
+Function promptGiveFlowerAlyssa:                                        // Function promptGiveFlowerAlyssa
+    SetVar YesNo 0                                                      //     Assign YesNo = 0
+    Message 14                                                          //     Output 14
+    YesNoBox YesNo                                                      //     Input YesNoBox
+    WaitButton                                                          //     Call WaitButton
+    CloseMessage                                                        //     Call CloseMessage
+    CompareVarValue YesNo 0                                             //     If YesNo
+    CallIf EQUAL Function#actionGiveFlowerAlyssa                        //         Call actionGiveFlowerAlyssa
+                                                                        //     End
+End                                                                     // End
+
+Function promptTellHomeworkAlyssa:                                      // Function promptTellHomeworkAlyssa
+    SetVar YesNo 0                                                      //     Assign YesNo = 0
+    YesNoBox YesNo                                                      //     Input YesNoBox
+    WaitButton                                                          //     Call WaitButton
+    CloseMessage                                                        //     Call CloseMessage
+    CompareVarValue YesNo 0                                             //     If YesNo
+    CallIf EQUAL Function#LogicTellHomeworkAlyssaKnowFuture             //         Call LogicTellHomeworkAlyssaKnowFuture
+    CompareVarValue YesNo 1                                             //     Else
+    CallIf EQUAL Function#dialogueAlyssaAskTomorrow                     //         Call dialogueAlyssaAskTomorrow
+    CallIf EQUAL Function#dialogueMaxCouldHaveGoneBetter                //         Call dialogueMaxCouldHaveGoneBetter
+                                                                        //     End
+End                                                                     // End

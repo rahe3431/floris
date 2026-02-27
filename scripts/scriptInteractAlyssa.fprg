@@ -4,33 +4,26 @@
         <attribute name="name" value="scriptInteractAlyssa"/>
         <attribute name="authors" value="vvrea"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-02-26 06:01:57 PM"/>
+        <attribute name="saved" value="2026-02-27 01:19:00 PM"/>
         <attribute name="created" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzAzOjEwOjU4IFBNOzI3OTg="/>
-        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI2OzA2OjAxOjU3IFBNOzMyOzI5NjA="/>
+        <attribute name="edited" value="dnZyZWE7UkFDSEVMREVTS1RPUDsyMDI2LTAyLTI3OzAxOjE5OjAwIFBNOzUxOzI5NTQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <call expression="lockAll"/>
-            <call expression="actionFacePlayer"/>
+            <call expression="LockAll"/>
+            <call expression="FacePlayer"/>
             <call expression="logicCanGiveFlowerAlyssa"/>
             <if expression="HadConvoAlyssa">
                 <then>
-                    <if expression="HasFlowerAlyssa">
-                        <then>
-                            <call expression="dialogueAlyssaThankFlower"/>
-                        </then>
-                        <else>
-                            <call expression="dialogueAlyssaSaysNothing"/>
-                        </else>
-                    </if>
+                    <call expression="LogicWhichDialogueHadConvo"/>
                 </then>
                 <else>
                     <call expression="logicKnowFutureAlyssa"/>
                     <assign variable="HadConvo" expression="1"/>
                 </else>
             </if>
-            <call expression="releaseAll"/>
+            <call expression="ReleaseAll"/>
         </body>
     </function>
     <function name="actionGiveFlowerAlyssa" type="None" variable="">
@@ -38,6 +31,7 @@
         <body>
             <assign variable="HasFlowerAlyssa" expression="1"/>
             <assign variable="PossessFlower" expression="0"/>
+            <call expression="dialogueAlyssaGiveFlower"/>
             <call expression="logicCanGiveFlowerAlyssa"/>
         </body>
     </function>
@@ -45,58 +39,70 @@
         <parameters/>
         <body>
             <output expression="13" newline="True"/>
+            <call expression="CloseMessage"/>
         </body>
     </function>
     <function name="dialogueAlyssaGiveFlower" type="None" variable="">
         <parameters/>
         <body>
             <output expression="15" newline="True"/>
+            <call expression="CloseMessage"/>
         </body>
     </function>
     <function name="dialogueAlyssaHomeworkStudy" type="None" variable="">
         <parameters/>
         <body>
             <output expression="9" newline="True"/>
+            <call expression="CloseMessage"/>
         </body>
     </function>
     <function name="dialogueAlyssaSaysNothing" type="None" variable="">
         <parameters/>
-        <body/>
+        <body>
+            <output expression="" newline="True"/>
+            <call expression="CloseMessage"/>
+        </body>
     </function>
     <function name="dialogueAlyssaThankFlower" type="None" variable="">
         <parameters/>
         <body>
             <output expression="16" newline="True"/>
+            <call expression="CloseMessage"/>
         </body>
     </function>
     <function name="dialogueAlyssaThankHomework" type="None" variable="">
         <parameters/>
         <body>
             <output expression="12" newline="True"/>
+            <call expression="CloseMessage"/>
         </body>
     </function>
     <function name="dialogueAlyssaWrongHomework" type="None" variable="">
         <parameters/>
         <body>
             <output expression="11" newline="True"/>
+            <call expression="CloseMessage"/>
         </body>
     </function>
     <function name="dialogueMaxCouldHaveGoneBetter" type="None" variable="">
         <parameters/>
         <body>
             <output expression="49" newline="True"/>
+            <call expression="CloseMessage"/>
         </body>
     </function>
     <function name="dialogueMaxTellHomeworkDontKnowFuture" type="None" variable="">
         <parameters/>
         <body>
             <output expression="10" newline="True"/>
+            <call expression="CloseMessage"/>
         </body>
     </function>
     <function name="dialogueMaxTellHomeworkKnowFuture" type="None" variable="">
         <parameters/>
         <body>
             <output expression="8" newline="True"/>
+            <call expression="CloseMessage"/>
         </body>
     </function>
     <function name="logicCanGiveFlowerAlyssa" type="None" variable="">
@@ -123,15 +129,6 @@
             </if>
         </body>
     </function>
-    <function name="logicHadConvoAlyssa" type="None" variable="">
-        <parameters/>
-        <body>
-            <if expression="PossessFlower">
-                <then/>
-                <else/>
-            </if>
-        </body>
-    </function>
     <function name="logicKnowFutureAlyssa" type="None" variable="">
         <parameters/>
         <body>
@@ -139,22 +136,41 @@
             <call expression="promptTellHomeworkAlyssa"/>
             <if expression="YesNo">
                 <then>
-                    <if expression="KnowFutureAlyssa">
-                        <then>
-                            <call expression="dialogueMaxTellHomeworkKnowFuture"/>
-                            <call expression="dialogueAlyssaThankHomework"/>
-                        </then>
-                        <else>
-                            <call expression="dialogueMaxTellHomeworkDontKnowFuture"/>
-                            <call expression="dialogueAlyssaWrongHomework"/>
-                            <assign variable="KnowFutureAlyssa" expression="1"/>
-                            <call expression="dialogueCouldHaveGoneBetter"/>
-                        </else>
-                    </if>
+                    <call expression="LogicKnowFutureAlyssa"/>
                 </then>
                 <else>
                     <call expression="dialogueAlyssaAskTomorrow"/>
                     <call expression="dialogueCouldHaveGoneBetter"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="LogicTellHomeworkAlyssaKnowFuture" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="KnowFutureAlyssa">
+                <then>
+                    <call expression="dialogueMaxTellHomeworkKnowFuture"/>
+                    <call expression="dialogueAlyssaThankHomework"/>
+                </then>
+                <else>
+                    <call expression="dialogueMaxTellHomeworkDontKnowFuture"/>
+                    <call expression="dialogueAlyssaWrongHomework"/>
+                    <assign variable="KnowFutureAlyssa" expression="1"/>
+                    <call expression="dialogueCouldHaveGoneBetter"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="logicWhichDialogueHadConvo" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="HasFlowerAlyssa">
+                <then>
+                    <call expression="dialogueAlyssaThankFlower"/>
+                </then>
+                <else>
+                    <call expression="dialogueAlyssaSaysNothing"/>
                 </else>
             </if>
         </body>
@@ -164,8 +180,9 @@
         <body>
             <assign variable="YesNo" expression="0"/>
             <output expression="14" newline="True"/>
-            <input variable="YesNo"/>
-            <if expression="">
+            <input variable="YesNoBox"/>
+            <call expression="CloseMessage"/>
+            <if expression="YesNo">
                 <then>
                     <call expression="actionGiveFlowerAlyssa"/>
                 </then>
@@ -178,20 +195,10 @@
         <body>
             <assign variable="YesNo" expression="0"/>
             <input variable="YesNo"/>
-            <if expression="">
+            <call expression="CloseMessage"/>
+            <if expression="YesNo">
                 <then>
-                    <if expression="KnowFutureAlyssa">
-                        <then>
-                            <call expression="dialogueMaxTellHomeworkKnowFuture"/>
-                            <call expression="dialogueAlyssaThankHomework"/>
-                        </then>
-                        <else>
-                            <call expression="dialogueMaxTellHomeworkDontKnowFuture"/>
-                            <call expression="dialogueAlyssaWrongHomework"/>
-                            <assign variable="KnowFutureAlyssa" expression="1"/>
-                            <call expression="dialogueCouldHaveGoneBetter"/>
-                        </else>
-                    </if>
+                    <call expression="LogicTellHomeworkAlyssaKnowFuture"/>
                 </then>
                 <else>
                     <call expression="dialogueAlyssaAskTomorrow"/>

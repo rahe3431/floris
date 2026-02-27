@@ -1,0 +1,126 @@
+Script 11:                                                  
+    LockAll                                                             
+    FacePlayer                                                          
+    Call Function#43                              
+    CompareVarValue 0x4000 1                                    
+    CallIf EQUAL Function#47                    
+    CompareVarValue 0x4000 0                                    
+    CallIf EQUAL Function#45                         
+    SetVar 0x4000 1                                             
+                                                                        
+    ReleaseAll                                                          
+End                                                                     
+
+Function 32:                                        
+    SetVar 0x4001 1                                            
+    SetVar 0x4002 0                                              
+    Call Function#34                              
+    Call Function#43                              
+End                                                                     
+Function 33:                                     
+    Message 13                                                          
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 34:                                      
+    Message 15                                                          
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 35:                                   
+    Message 9                                                           
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 36:                                     
+    Message 49                                                          
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 37:                                     
+    Message 16                                                          
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 38:                                   
+    Message 12                                                          
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 39:                                   
+    Message 11                                                          
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 40:                                
+    Message 49                                                          
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 41:                         
+    Message 10                                                          
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 42:                             
+    Message 8                                                           
+    WaitButton                                                          
+    CloseMessage                                                        
+End                                                                     
+Function 43:                                      
+    CompareVarValue 0x4002 1                                     
+    CallIf EQUAL Function#48                        
+                                                                        
+End                                                                     
+Function 44:                                                                                                               
+End                                                                     
+Function 45:                                         
+    Call Function#35                           
+    Call Function#49                              
+    CompareVarValue 0x800C 0                                             
+    CallIf EQUAL Function#45                         
+    CompareVarValue 0x800C 1                                             
+    CallIf EQUAL Function#33                     
+    CallIf EQUAL Function#40                
+                                                                        
+End                                                                     
+Function 46:                             
+    CompareVarValue 0x4003 1                                  
+    CallIf EQUAL Function#42             
+    CallIf EQUAL Function#38                   
+    CompareVarValue 0x4003 0                                  
+    CallIf EQUAL Function#41         
+    CallIf EQUAL Function#39                   
+    SetVar 0x4003 1                                           
+    CallIf EQUAL Function#40                
+                                                                        
+End                                                                     
+Function 47:                                    
+    CompareVarValue 0x4001 1                                   
+    CallIf EQUAL Function#37                     
+    CompareVarValue 0x4001 0                                   
+    CallIf EQUAL Function#36                     
+                                                                        
+End                                                                     
+Function 48:                                        
+    SetVar 0x800C 0                                                      
+    Message 14                                                          
+    YesNoBox 0x800C                                                      
+    WaitButton                                                          
+    CloseMessage                                                        
+    CompareVarValue 0x800C 0                                             
+    CallIf EQUAL Function#32                        
+                                                                        
+End                                                                     
+Function 49:                                      
+    SetVar 0x800C 0                                                      
+    YesNoBox 0x800C                                                      
+    WaitButton                                                          
+    CloseMessage                                                        
+    CompareVarValue 0x800C 0                                             
+    CallIf EQUAL Function#46             
+    CompareVarValue 0x800C 1                                             
+    CallIf EQUAL Function#33                     
+    CallIf EQUAL Function#40                
+                                                                        
+End                                                                     

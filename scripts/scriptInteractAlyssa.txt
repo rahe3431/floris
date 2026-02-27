@@ -1,63 +1,71 @@
 Function Main
-    Call lockAll
-    Call actionFacePlayer
+    Call LockAll
+    Call FacePlayer
     Call logicCanGiveFlowerAlyssa
     If HadConvoAlyssa
-        If HasFlowerAlyssa
-            Call dialogueAlyssaThankFlower
-        Else
-            Call dialogueAlyssaSaysNothing
-        End
+        Call LogicWhichDialogueHadConvo
     Else
         Call logicKnowFutureAlyssa
         Assign HadConvo = 1
     End
-    Call releaseAll
+    Call ReleaseAll
 End
 
 Function actionGiveFlowerAlyssa
     Assign HasFlowerAlyssa = 1
     Assign PossessFlower = 0
+    Call dialogueAlyssaGiveFlower
     Call logicCanGiveFlowerAlyssa
 End
 
 Function dialogueAlyssaAskTomorrow
     Output 13
+    Call CloseMessage
 End
 
 Function dialogueAlyssaGiveFlower
     Output 15
+    Call CloseMessage
 End
 
 Function dialogueAlyssaHomeworkStudy
     Output 9
+    Call CloseMessage
 End
 
 Function dialogueAlyssaSaysNothing
+    Output 
+    Call CloseMessage
 End
 
 Function dialogueAlyssaThankFlower
     Output 16
+    Call CloseMessage
 End
 
 Function dialogueAlyssaThankHomework
     Output 12
+    Call CloseMessage
 End
 
 Function dialogueAlyssaWrongHomework
     Output 11
+    Call CloseMessage
 End
 
 Function dialogueMaxCouldHaveGoneBetter
     Output 49
+    Call CloseMessage
 End
 
 Function dialogueMaxTellHomeworkDontKnowFuture
     Output 10
+    Call CloseMessage
 End
 
 Function dialogueMaxTellHomeworkKnowFuture
     Output 8
+    Call CloseMessage
 End
 
 Function logicCanGiveFlowerAlyssa
@@ -74,35 +82,43 @@ Function logicDoFlowerConvo
     End
 End
 
-Function logicHadConvoAlyssa
-    If PossessFlower
-    End
-End
-
 Function logicKnowFutureAlyssa
     Call dialogueAlyssaHomeworkStudy
     Call promptTellHomeworkAlyssa
     If YesNo
-        If KnowFutureAlyssa
-            Call dialogueMaxTellHomeworkKnowFuture
-            Call dialogueAlyssaThankHomework
-        Else
-            Call dialogueMaxTellHomeworkDontKnowFuture
-            Call dialogueAlyssaWrongHomework
-            Assign KnowFutureAlyssa = 1
-            Call dialogueCouldHaveGoneBetter
-        End
+        Call LogicKnowFutureAlyssa
     Else
         Call dialogueAlyssaAskTomorrow
         Call dialogueCouldHaveGoneBetter
     End
 End
 
+Function LogicTellHomeworkAlyssaKnowFuture
+    If KnowFutureAlyssa
+        Call dialogueMaxTellHomeworkKnowFuture
+        Call dialogueAlyssaThankHomework
+    Else
+        Call dialogueMaxTellHomeworkDontKnowFuture
+        Call dialogueAlyssaWrongHomework
+        Assign KnowFutureAlyssa = 1
+        Call dialogueCouldHaveGoneBetter
+    End
+End
+
+Function logicWhichDialogueHadConvo
+    If HasFlowerAlyssa
+        Call dialogueAlyssaThankFlower
+    Else
+        Call dialogueAlyssaSaysNothing
+    End
+End
+
 Function promptGiveFlowerAlyssa
     Assign YesNo = 0
     Output 14
-    Input YesNo
-    If 
+    Input YesNoBox
+    Call CloseMessage
+    If YesNo
         Call actionGiveFlowerAlyssa
     End
 End
@@ -110,16 +126,9 @@ End
 Function promptTellHomeworkAlyssa
     Assign YesNo = 0
     Input YesNo
-    If 
-        If KnowFutureAlyssa
-            Call dialogueMaxTellHomeworkKnowFuture
-            Call dialogueAlyssaThankHomework
-        Else
-            Call dialogueMaxTellHomeworkDontKnowFuture
-            Call dialogueAlyssaWrongHomework
-            Assign KnowFutureAlyssa = 1
-            Call dialogueCouldHaveGoneBetter
-        End
+    Call CloseMessage
+    If YesNo
+        Call LogicTellHomeworkAlyssaKnowFuture
     Else
         Call dialogueAlyssaAskTomorrow
         Call dialogueCouldHaveGoneBetter
