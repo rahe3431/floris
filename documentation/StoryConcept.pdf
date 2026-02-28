@@ -18731,3 +18731,55 @@ trailer
 startxref
 2410878
 %%EOF
+1230 0 obj
+<< /Annots [1391 0 R 1392 0 R] /Parent 1229 0 R /Resources 1226 0 R /MediaBox [0 0 6515.633789 8401.386719] /Type /Page /Tabs /S /StructParents 0 /Contents 1227 0 R>>
+endobj
+1390 0 obj
+<< /BaseFont /Helvetica /Type /Font /Subtype /Type1 /Encoding /WinAnsiEncoding>>
+endobj
+1391 0 obj
+<< /Type /Annot /Subtype /FreeText /CreationDate (D:20260228084610) /Rect [5930.874938964844 970.1365282651368 6063.562431335449 1067.1365358945313] /DA (/Helv 60 Tf 0 g) /Contents ( -----) /F 4 /Border [0 0 0] /Rotate 0 /AP << /N 1393 0 R>>>>
+endobj
+1392 0 obj
+<< /Type /Annot /Subtype /FreeText /CreationDate (D:20260228084610) /Rect [5956.875 923.4492991086436 6288.3124923706055 1023.1367800351572] /DA (/Helv 62 Tf 1 0 0 rg) /Contents (t + dt_cycle) /F 4 /Border [0 0 0] /Rotate 0 /AP << /N 1394 0 R>>>>
+endobj
+1393 0 obj
+<< /FormType 1 /Subtype /Form /Type /XObject /BBox [5930.874938964844 970.1365282651368 6063.562431335449 1067.1365358945313] /Resources << /Font << /Helv 1390 0 R>>>> /Matrix [1 0 0 1 -5930.874938964844 -970.1365282651368] /Length 177>> stream
+q
+1 0 0 1 0 0 cm
+5930.874938964844 970.1365282651368 132.68749237060547 97.00000762939453 re W n
+BT
+0 g
+0 Tc /Helv 60 Tf
+5930.874938964844 1007.1365358945313 Td ( -----) Tj
+ET
+Q
+endstream
+endobj
+1394 0 obj
+<< /FormType 1 /Subtype /Form /Type /XObject /BBox [5956.875 923.4492991086436 6288.3124923706055 1023.1367800351572] /Resources << /Font << /Helv 1390 0 R>>>> /Matrix [1 0 0 1 -5956.875 -923.4492991086436] /Length 169>> stream
+q
+1 0 0 1 0 0 cm
+5956.875 923.4492991086436 331.43749237060547 99.68748092651367 re W n
+BT
+1 0 0 rg
+0 Tc /Helv 62 Tf
+5956.875 961.1367800351572 Td (t + dt_cycle) Tj
+ET
+Q
+endstream
+endobj
+xref
+1230 1
+0002438786 00000 n
+1390 5
+0002438971 00000 n
+0002439070 00000 n
+0002439332 00000 n
+0002439597 00000 n
+0002440048 00000 n
+trailer
+<< /Prev 2410878 /Size 1395 /Root 1389 0 R /ID [(0:1) (µí\rð*|“#’4Qa,- )]>>
+startxref
+2440474
+%%EOF
