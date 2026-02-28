@@ -12,8 +12,8 @@ Script 11:
 End                                                                     
 
 Function 32:                                        
-    SetVar 0x4001 1                                            
-    SetVar 0x4002 0                                              
+    SetVar 0x4001 0x1                                            
+    SetVar 0x4002 0x0                                              
     Call Function#34                              
     Call Function#43                              
 End                                                                     
