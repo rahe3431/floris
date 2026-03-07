@@ -12,3 +12,8 @@ probably just shrink each residential block to one map
 so
 
 build Arcadia Bay at 0.5 scale to Garibaldi layout
+
+so one block = 250ft * 0.5 = 125ft/3 = 40tiles
+
+use houses and yards as overlap because most exploring will be on roads
+

@@ -1,0 +1,11 @@
+0(0/1)0X: Route (Timeline A/Timeline B)
+0(0/1)1X: Suburbs
+0(0/1)2X: Suburbs
+0(0/1)3X: Junkyard
+0(0/1)4X: Peninsula
+0(0/1)5X: Coastline
+0(0/1)6X: Barn Area/Lumber Mill Area
+0(0/1)7X: Blackwell Grounds
+0(0/1)8X: Blackwell Grounds [Exclude 0086]
+0(0/1)9X: Available Files [Exclude 0095-0100]
+
