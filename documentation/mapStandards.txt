@@ -1,0 +1,14 @@
+Even numbers because default map size is even number (32x32)
+
+avg american exterior door size ~36in (3ft)
+avg 4x4 houses (~200ft^2) per block (though not packed tightly)
+
+so one block ~66 tiles
+
+32*2 = 64 close enough
+
+probably just shrink each residential block to one map
+
+so
+
+build Arcadia Bay at 0.5 scale to Garibaldi layout
