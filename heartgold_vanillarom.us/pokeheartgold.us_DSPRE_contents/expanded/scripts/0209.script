@@ -1,0 +1,19 @@
+/*
+ * DSPRE Script File
+ * Rom ID: pokeheartgold
+ * Game: HGSS
+ * File: 0209
+ * Generated: 3/6/2026 7:25:18 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	CyclingRoad 1
+End
+
+Script 2:
+	CyclingRoad 1
+End
+
+//===== FUNCTIONS =====//
+//===== ACTIONS =====//
