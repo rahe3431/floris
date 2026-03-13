@@ -1,0 +1,16 @@
+newmtl grass01
+map_Kd grass01.png
+map_d grass01.png
+
+newmtl road05
+map_Kd road05.png
+map_d road05.png
+
+newmtl wall01_d
+map_Kd wall01_d.png
+map_d wall01_d.png
+
+newmtl wall01_g
+map_Kd wall01_g.png
+map_d wall01_g.png
+

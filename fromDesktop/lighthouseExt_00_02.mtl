@@ -1,0 +1,8 @@
+newmtl sea_line02
+map_Kd sea_line02.png
+map_d sea_line02.png
+
+newmtl road05
+map_Kd road05.png
+map_d road05.png
+
