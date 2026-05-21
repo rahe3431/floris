@@ -1,0 +1,25 @@
+{
+  "key": 65256,
+  "messages": [
+    {
+      "id": "msg_0000_00000",
+      "en_US": "EXIT"
+    },
+    {
+      "id": "msg_0000_00001",
+      "en_US": "VIEW"
+    },
+    {
+      "id": "msg_0000_00002",
+      "en_US": "DELETE"
+    },
+    {
+      "id": "msg_0000_00003",
+      "en_US": "MOVE"
+    },
+    {
+      "id": "msg_0000_00004",
+      "en_US": "CANCEL"
+    }
+  ]
+}

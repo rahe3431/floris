@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0824
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:39 PM
  */
 
 //===== SCRIPTS =====//
@@ -341,125 +341,125 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	WalkNorth8 0x2
-	WalkEast8 0x1
-	WalkOnSpotNorth8 0x1
+		WalkNorth8 0x2
+		WalkEast8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 2:
-	WalkNorth8 0x6
+		WalkNorth8 0x6
 End
 
 Action 3:
-	WalkNorth8 0x2
+		WalkNorth8 0x2
 End
 
 Action 4:
-	WalkOnSpotSouth8 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 5:
-	WalkNorth8 0x2
-	WalkWest8 0x1
-	WalkOnSpotNorth8 0x1
+		WalkNorth8 0x2
+		WalkWest8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 6:
-	FaceSouth 0x1
-	EmoteExclamation 0x0
-	LockDir 0x1
-	WalkEast8 0x1
-	ReleaseDir 0x1
+		FaceSouth 0x1
+		EmoteExclamation 0x0
+		LockDir 0x1
+		WalkEast8 0x1
+		ReleaseDir 0x1
 End
 
 Action 7:
-	FaceSouth 0x1
-	Delay8 0x4
-	LockDir 0x1
-	WalkNorth8 0x2
-	ReleaseDir 0x1
+		FaceSouth 0x1
+		Delay8 0x4
+		LockDir 0x1
+		WalkNorth8 0x2
+		ReleaseDir 0x1
 End
 
 Action 8:
-	WalkNorth4 0x3
-	WalkEast4 0x1
-	WalkOnSpotSouth8 0x1
+		WalkNorth4 0x3
+		WalkEast4 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 9:
-	WalkNorth4 0xC
-	FaceSouth 0x1
-	WalkOnSpotSouth4 0x3
+		WalkNorth4 0xC
+		FaceSouth 0x1
+		WalkOnSpotSouth4 0x3
 End
 
 Action 10:
-	WalkNorth8 0x8
+		WalkNorth8 0x8
 End
 
 Action 11:
-	Delay8 0x6
-	WalkWest8 0x1
-	FaceNorth 0x1
+		Delay8 0x6
+		WalkWest8 0x1
+		FaceNorth 0x1
 End
 
 Action 12:
-	WalkOnSpotNorth4 0x4
+		WalkOnSpotNorth4 0x4
 End
 
 Action 13:
-	WalkNorth8 0x2
-	WalkWest8 0x1
-	FaceSouth 0x1
+		WalkNorth8 0x2
+		WalkWest8 0x1
+		FaceSouth 0x1
 End
 
 Action 14:
-	Delay8 0x3
-	FaceNorth 0x1
+		Delay8 0x3
+		FaceNorth 0x1
 End
 
 Action 15:
-	Delay4 0x1
-	WalkNorth8 0x2
-	SetInvisible 0x1
+		Delay4 0x1
+		WalkNorth8 0x2
+		SetInvisible 0x1
 End
 
 Action 16:
-	WalkNorth8 0x2
-	WalkNorth8 0x2
-	SetInvisible 0x1
+		WalkNorth8 0x2
+		WalkNorth8 0x2
+		SetInvisible 0x1
 End
 
 Action 17:
-	SetInvisible 0x1
+		SetInvisible 0x1
 End
 
 Action 18:
-	WalkNorth4 0x4
-	EmoteExclamation 0x0
-	Delay8 0x2
+		WalkNorth4 0x4
+		EmoteExclamation 0x0
+		Delay8 0x2
 End
 
 Action 19:
-	WalkEast4 0x1
-	WalkWest4 0x2
-	WalkEast4 0x2
-	WalkWest4 0x1
-	FaceNorth 0x1
+		WalkEast4 0x1
+		WalkWest4 0x2
+		WalkEast4 0x2
+		WalkWest4 0x1
+		FaceNorth 0x1
 End
 
 Action 20:
-	WalkNorth4 0x2
-	WalkWest4 0x1
-	WalkNorth4 0x2
-	WalkEast4 0x1
-	WalkOnSpotSouth8 0x1
+		WalkNorth4 0x2
+		WalkWest4 0x1
+		WalkNorth4 0x2
+		WalkEast4 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 21:
-	WalkNorth4 0x1
-	WalkEast4 0x1
-	WalkNorth4 0x2
-	WalkWest4 0x2
-	WalkOnSpotSouth8 0x1
+		WalkNorth4 0x1
+		WalkEast4 0x1
+		WalkNorth4 0x2
+		WalkWest4 0x2
+		WalkOnSpotSouth8 0x1
 End
 

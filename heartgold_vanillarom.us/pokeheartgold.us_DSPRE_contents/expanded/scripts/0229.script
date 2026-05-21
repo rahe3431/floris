@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0229
- * Generated: 3/6/2026 7:25:18 PM
+ * Generated: 5/20/2026 9:55:34 PM
  */
 
 //===== SCRIPTS =====//
@@ -274,91 +274,91 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	EmoteExclamation 0x1
+		EmoteExclamation 0x1
 End
 
 Action 2:
-	WalkOnSpotWest8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 3:
-	WalkSouth4 0x1
-	WalkWest4 0x5
-	WalkOnSpotSouth8 0x1
+		WalkSouth4 0x1
+		WalkWest4 0x5
+		WalkOnSpotSouth8 0x1
 End
 
 Action 4:
-	WalkEast8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 5:
-	WalkNorth8 0x1
-	WalkEast8 0x1
-	WalkNorth8 0x2
+		WalkNorth8 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x2
 End
 
 Action 6:
-	WalkWest4 0x3
-	WalkNorth4 0x1
-	Delay8 0x1
-	WalkOnSpotNorth32 0x1
-	WalkSouth16 0x1
-	WalkEast16 0x3
-	WalkOnSpotSouth16 0x1
+		WalkWest4 0x3
+		WalkNorth4 0x1
+		Delay8 0x1
+		WalkOnSpotNorth32 0x1
+		WalkSouth16 0x1
+		WalkEast16 0x3
+		WalkOnSpotSouth16 0x1
 End
 
 Action 7:
-	WalkSouth8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x1
+		WalkSouth8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x1
 End
 
 Action 8:
-	FaceSouth 0x3
-	FaceWest 0x3
-	FaceNorth 0x3
-	FaceEast 0x3
+		FaceSouth 0x3
+		FaceWest 0x3
+		FaceNorth 0x3
+		FaceEast 0x3
 End
 
 Action 9:
-	WalkSouth16 0x1
-	WalkWest16 0x4
-	WalkNorth16 0x2
-	WalkOnSpotEast16 0x1
+		WalkSouth16 0x1
+		WalkWest16 0x4
+		WalkNorth16 0x2
+		WalkOnSpotEast16 0x1
 End
 
 Action 10:
-	WalkOnSpotWest8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 11:
-	WalkSouth16 0x1
-	WalkOnSpotEast16 0x1
+		WalkSouth16 0x1
+		WalkOnSpotEast16 0x1
 End
 
 Action 12:
-	WalkNorth16 0x1
-	WalkOnSpotEast16 0x1
+		WalkNorth16 0x1
+		WalkOnSpotEast16 0x1
 End
 
 Action 13:
-	WalkSouth16 0x3
-	Delay8 0x1
+		WalkSouth16 0x3
+		Delay8 0x1
 End
 
 Action 14:
-	FaceSouth 0x3
-	FaceEast 0x3
-	FaceNorth 0x3
-	FaceWest 0x3
+		FaceSouth 0x3
+		FaceEast 0x3
+		FaceNorth 0x3
+		FaceWest 0x3
 End
 
 Action 15:
-	FaceEast 0x3
-	FaceNorth 0x3
-	FaceWest 0x3
-	FaceSouth 0x3
+		FaceEast 0x3
+		FaceNorth 0x3
+		FaceWest 0x3
+		FaceSouth 0x3
 End
 

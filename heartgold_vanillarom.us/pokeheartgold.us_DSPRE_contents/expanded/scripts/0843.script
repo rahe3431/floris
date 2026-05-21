@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0843
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:39 PM
  */
 
 //===== SCRIPTS =====//
@@ -1214,372 +1214,372 @@ Return
 
 //===== ACTIONS =====//
 Action 1:
-	FaceEast 0x1
+		FaceEast 0x1
 End
 
 Action 2:
-	WalkNorth6 0x8
-	FaceWest 0x1
+		WalkNorth6 0x8
+		FaceWest 0x1
 End
 
 Action 3:
-	WalkOnSpotEast8 0x1
+		WalkOnSpotEast8 0x1
 End
 
 Action 4:
-	WalkNorth4 0x6
-	WalkWest4 0x1
-	JumpOnSpotNorth8 0x2
+		WalkNorth4 0x6
+		WalkWest4 0x1
+		JumpOnSpotNorth8 0x2
 End
 
 Action 5:
-	Delay8 0x4
-	WalkOnSpotSouth8 0x1
+		Delay8 0x4
+		WalkOnSpotSouth8 0x1
 End
 
 Action 6:
-	EmoteExclamation 0x1
-	Delay1 0x1
-	FaceSouth 0x1
-	Delay8 0x2
-	FaceEast 0x1
-	Delay8 0x2
-	FaceSouth 0x1
-	Delay8 0x2
-	FaceEast 0x1
-	Delay8 0x2
+		EmoteExclamation 0x1
+		Delay1 0x1
+		FaceSouth 0x1
+		Delay8 0x2
+		FaceEast 0x1
+		Delay8 0x2
+		FaceSouth 0x1
+		Delay8 0x2
+		FaceEast 0x1
+		Delay8 0x2
 End
 
 Action 7:
-	FaceWest 0x1
-	LockDir 0x1
-	WalkEast8 0x1
-	ReleaseDir 0x1
-	Delay32 0x1
-	FaceSouth 0x1
+		FaceWest 0x1
+		LockDir 0x1
+		WalkEast8 0x1
+		ReleaseDir 0x1
+		Delay32 0x1
+		FaceSouth 0x1
 End
 
 Action 8:
-	FaceSouth 0x1
-	Delay4 0x1
-	WalkSouth8 0x6
-	FaceEast 0x1
-	WalkEast8 0x1
-	FaceSouth 0x1
-	WalkSouth8 0x2
+		FaceSouth 0x1
+		Delay4 0x1
+		WalkSouth8 0x6
+		FaceEast 0x1
+		WalkEast8 0x1
+		FaceSouth 0x1
+		WalkSouth8 0x2
 End
 
 Action 9:
-	WalkWest8 0x1
-	WalkNorth8 0x2
-	WalkOnSpotEast8 0x1
+		WalkWest8 0x1
+		WalkNorth8 0x2
+		WalkOnSpotEast8 0x1
 End
 
 Action 10:
-	FaceSouth 0x1
-	WalkSouth8 0x6
-	WalkEast8 0x1
-	WalkSouth8 0x2
+		FaceSouth 0x1
+		WalkSouth8 0x6
+		WalkEast8 0x1
+		WalkSouth8 0x2
 End
 
 Action 11:
-	FaceNorth 0x1
+		FaceNorth 0x1
 End
 
 Action 12:
-	WalkOnSpotSouth8 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 13:
-	JumpOnSpotSouth8 0x1
-	LockDir 0x1
-	WalkNorth3 0x1
-	ReleaseDir 0x1
+		JumpOnSpotSouth8 0x1
+		LockDir 0x1
+		WalkNorth3 0x1
+		ReleaseDir 0x1
 End
 
 Action 14:
-	WalkSouth6 0x1
+		WalkSouth6 0x1
 End
 
 Action 15:
-	FaceNorth 0x1
-	WalkNorth16 0x1
-	Delay15 0x1
-	FaceSouth 0x1
+		FaceNorth 0x1
+		WalkNorth16 0x1
+		Delay15 0x1
+		FaceSouth 0x1
 End
 
 Action 16:
-	WalkSouth6 0x1
+		WalkSouth6 0x1
 End
 
 Action 17:
-	EmoteExclamation 0x1
-	WalkWest6 0x6
-	WalkOnSpotNorth8 0x1
+		EmoteExclamation 0x1
+		WalkWest6 0x6
+		WalkOnSpotNorth8 0x1
 End
 
 Action 18:
-	WalkNorth8 0x2
-	WalkEast8 0x1
-	WalkNorth8 0x1
+		WalkNorth8 0x2
+		WalkEast8 0x1
+		WalkNorth8 0x1
 End
 
 Action 19:
-	WalkSouth8 0x2
-	WalkWest8 0x4
-	WalkOnSpotNorth8 0x1
+		WalkSouth8 0x2
+		WalkWest8 0x4
+		WalkOnSpotNorth8 0x1
 End
 
 Action 20:
-	WalkOnSpotSouth8 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 21:
-	WalkOnSpotNorth8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 22:
-	Delay16 0x1
-	WalkOnSpotSouth8 0x1
+		Delay16 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 23:
-	FaceWest 0x1
-	EmoteExclamation 0x1
+		FaceWest 0x1
+		EmoteExclamation 0x1
 End
 
 Action 24:
-	WalkWest6 0x3
-	WalkOnSpotSouth8 0x1
+		WalkWest6 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 25:
-	WalkNorth8 0x7
+		WalkNorth8 0x7
 End
 
 Action 26:
-	WalkNorth8 0x5
-	WalkEast8 0x1
-	WalkNorth8 0x1
-	WalkOnSpotWest8 0x1
+		WalkNorth8 0x5
+		WalkEast8 0x1
+		WalkNorth8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 27:
-	WalkWest8 0x5
-	WalkSouth8 0x1
+		WalkWest8 0x5
+		WalkSouth8 0x1
 End
 
 Action 28:
-	WalkNorth8 0x1
-	WalkEast8 0x5
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x1
+		WalkEast8 0x5
+		WalkOnSpotSouth8 0x1
 End
 
 Action 29:
-	WalkOnSpotSouth8 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 30:
-	WalkSouth8 0x1
-	WalkEast8 0x1
-	WalkOnSpotSouth8 0x1
+		WalkSouth8 0x1
+		WalkEast8 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 31:
-	JumpOnSpotSouth8 0x1
-	Delay16 0x1
-	JumpOnSpotNorth8 0x1
+		JumpOnSpotSouth8 0x1
+		Delay16 0x1
+		JumpOnSpotNorth8 0x1
 End
 
 Action 32:
-	EmoteExclamation 0x1
-	Delay8 0x1
+		EmoteExclamation 0x1
+		Delay8 0x1
 End
 
 Action 33:
-	WalkNorth8 0x1
-	WalkWest8 0x1
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x1
+		WalkWest8 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 34:
-	WalkNorth8 0x1
-	Delay8 0x2
-	LockDir 0x1
-	WalkEast16 0x1
-	WalkOnSpotNorth8 0x1
-	WalkWest16 0x1
-	ReleaseDir 0x1
-	Delay8 0x2
+		WalkNorth8 0x1
+		Delay8 0x2
+		LockDir 0x1
+		WalkEast16 0x1
+		WalkOnSpotNorth8 0x1
+		WalkWest16 0x1
+		ReleaseDir 0x1
+		Delay8 0x2
 End
 
 Action 35:
-	EmoteExclamation 0x1
-	WalkWest6 0x5
-	WalkOnSpotNorth8 0x1
+		EmoteExclamation 0x1
+		WalkWest6 0x5
+		WalkOnSpotNorth8 0x1
 End
 
 Action 36:
-	WalkEast6 0x6
-	WalkOnSpotWest8 0x1
+		WalkEast6 0x6
+		WalkOnSpotWest8 0x1
 End
 
 Action 37:
-	FaceSouth 0x1
-	EmoteExclamation 0x1
-	WalkOnSpotSouth8 0x2
+		FaceSouth 0x1
+		EmoteExclamation 0x1
+		WalkOnSpotSouth8 0x2
 End
 
 Action 38:
-	WalkNorth8 0x1
+		WalkNorth8 0x1
 End
 
 Action 39:
-	WalkNorth8 0x3
+		WalkNorth8 0x3
 End
 
 Action 40:
-	EmoteExclamation 0x1
-	WalkNorth8 0x1
-	Delay16 0x1
+		EmoteExclamation 0x1
+		WalkNorth8 0x1
+		Delay16 0x1
 End
 
 Action 41:
-	WalkSouth8 0x1
+		WalkSouth8 0x1
 End
 
 Action 42:
-	WalkSouth8 0x1
-	WalkOnSpotWest8 0x1
+		WalkSouth8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 43:
-	Delay8 0x1
-	WalkOnSpotEast8 0x1
+		Delay8 0x1
+		WalkOnSpotEast8 0x1
 End
 
 Action 44:
-	WalkSouth6 0x3
-	WalkWest6 0x1
-	WalkSouth6 0x4
+		WalkSouth6 0x3
+		WalkWest6 0x1
+		WalkSouth6 0x4
 End
 
 Action 45:
-	WalkOnSpotNorth8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 46:
-	WalkSouth8 0x1
-	WalkOnSpotNorth8 0x1
+		WalkSouth8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 47:
-	WalkEast8 0x1
-	WalkSouth8 0x1
-	WalkOnSpotNorth8 0x1
+		WalkEast8 0x1
+		WalkSouth8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 48:
-	WalkNorth8 0x1
-	WalkWest8 0x2
-	WalkOnSpotNorth8 0x1
-	Delay8 0x2
-	LockDir 0x1
-	WalkEast16 0x1
-	WalkOnSpotNorth8 0x1
-	WalkWest16 0x1
-	ReleaseDir 0x1
-	Delay8 0x2
+		WalkNorth8 0x1
+		WalkWest8 0x2
+		WalkOnSpotNorth8 0x1
+		Delay8 0x2
+		LockDir 0x1
+		WalkEast16 0x1
+		WalkOnSpotNorth8 0x1
+		WalkWest16 0x1
+		ReleaseDir 0x1
+		Delay8 0x2
 End
 
 Action 49:
-	WalkSouth8 0x1
+		WalkSouth8 0x1
 End
 
 Action 50:
-	EmoteExclamation 0x1
-	Delay4 0x1
+		EmoteExclamation 0x1
+		Delay4 0x1
 End
 
 Action 51:
-	EmoteExclamation 0x1
-	WalkWest6 0x4
-	WalkOnSpotNorth8 0x1
+		EmoteExclamation 0x1
+		WalkWest6 0x4
+		WalkOnSpotNorth8 0x1
 End
 
 Action 52:
-	WalkEast6 0x5
-	WalkOnSpotWest8 0x1
+		WalkEast6 0x5
+		WalkOnSpotWest8 0x1
 End
 
 Action 53:
-	WalkNorth8 0x2
-	WalkWest8 0x1
-	WalkNorth8 0x1
+		WalkNorth8 0x2
+		WalkWest8 0x1
+		WalkNorth8 0x1
 End
 
 Action 54:
-	WalkSouth8 0x2
-	WalkEast8 0x1
-	WalkOnSpotNorth8 0x1
+		WalkSouth8 0x2
+		WalkEast8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 55:
-	WalkSouth8 0x1
-	WalkEast8 0x2
-	WalkNorth8 0x1
-	WalkOnSpotNorth8 0x1
+		WalkSouth8 0x1
+		WalkEast8 0x2
+		WalkNorth8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 56:
-	WalkSouth8 0x1
-	WalkEast8 0x2
-	WalkOnSpotSouth8 0x1
+		WalkSouth8 0x1
+		WalkEast8 0x2
+		WalkOnSpotSouth8 0x1
 End
 
 Action 57:
-	EmoteExclamation 0x1
-	WalkWest6 0x3
-	WalkOnSpotNorth8 0x1
+		EmoteExclamation 0x1
+		WalkWest6 0x3
+		WalkOnSpotNorth8 0x1
 End
 
 Action 58:
-	WalkEast6 0x4
-	WalkOnSpotWest8 0x1
+		WalkEast6 0x4
+		WalkOnSpotWest8 0x1
 End
 
 Action 59:
-	WalkNorth8 0x2
-	WalkWest8 0x2
-	WalkNorth8 0x1
+		WalkNorth8 0x2
+		WalkWest8 0x2
+		WalkNorth8 0x1
 End
 
 Action 60:
-	WalkSouth8 0x2
-	WalkWest8 0x1
-	WalkOnSpotNorth8 0x1
+		WalkSouth8 0x2
+		WalkWest8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 61:
-	WalkOnSpotNorth8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 62:
-	WalkEast6 0x3
-	WalkOnSpotWest8 0x1
+		WalkEast6 0x3
+		WalkOnSpotWest8 0x1
 End
 
 Action 63:
-	WalkEast8 0x1
-	WalkSouth8 0x3
-	WalkWest8 0x1
-	WalkOnSpotNorth8 0x1
+		WalkEast8 0x1
+		WalkSouth8 0x3
+		WalkWest8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 64:
-	WalkWest8 0x1
-	WalkSouth8 0x3
-	WalkEast8 0x1
-	WalkOnSpotNorth8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x3
+		WalkEast8 0x1
+		WalkOnSpotNorth8 0x1
 End
 

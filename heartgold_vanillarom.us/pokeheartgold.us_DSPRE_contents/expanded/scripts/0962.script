@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0962
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:41 PM
  */
 
 //===== SCRIPTS =====//
@@ -305,69 +305,69 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	EmoteExclamation 0x1
-	Delay8 0x1
+		EmoteExclamation 0x1
+		Delay8 0x1
 End
 
 Action 2:
-	WalkNorth4 0x5
-	WalkOnSpotNorth8 0x2
+		WalkNorth4 0x5
+		WalkOnSpotNorth8 0x2
 End
 
 Action 3:
-	WalkNorth4 0x2
-	WalkEast4 0x1
-	WalkNorth4 0x3
-	WalkOnSpotNorth8 0x2
+		WalkNorth4 0x2
+		WalkEast4 0x1
+		WalkNorth4 0x3
+		WalkOnSpotNorth8 0x2
 End
 
 Action 4:
-	WalkNorth8 0x1
+		WalkNorth8 0x1
 End
 
 Action 5:
-	LockDir 0x1
-	WalkNorth8 0x1
-	ReleaseDir 0x1
+		LockDir 0x1
+		WalkNorth8 0x1
+		ReleaseDir 0x1
 End
 
 Action 6:
-	WalkSouth4 0x6
-	WalkOnSpotNorth8 0x1
+		WalkSouth4 0x6
+		WalkOnSpotNorth8 0x1
 End
 
 Action 7:
-	WalkNorth4 0x2
-	WalkEast4 0x2
-	WalkNorth4 0x3
-	WalkOnSpotNorth8 0x2
+		WalkNorth4 0x2
+		WalkEast4 0x2
+		WalkNorth4 0x3
+		WalkOnSpotNorth8 0x2
 End
 
 Action 8:
-	WalkSouth4 0x3
-	WalkWest4 0x1
-	WalkSouth4 0x3
-	WalkOnSpotNorth8 0x1
+		WalkSouth4 0x3
+		WalkWest4 0x1
+		WalkSouth4 0x3
+		WalkOnSpotNorth8 0x1
 End
 
 Action 9:
-	WalkNorth4 0x2
-	WalkEast4 0x3
-	WalkNorth4 0x3
-	WalkOnSpotNorth8 0x2
+		WalkNorth4 0x2
+		WalkEast4 0x3
+		WalkNorth4 0x3
+		WalkOnSpotNorth8 0x2
 End
 
 Action 10:
-	WalkSouth4 0x3
-	WalkWest4 0x2
-	WalkSouth4 0x3
-	WalkOnSpotNorth8 0x1
+		WalkSouth4 0x3
+		WalkWest4 0x2
+		WalkSouth4 0x3
+		WalkOnSpotNorth8 0x1
 End
 
 Action 11:
-	WalkSouth4 0x3
-	WalkWest4 0x3
-	WalkSouth4 0x3
-	WalkOnSpotNorth8 0x1
+		WalkSouth4 0x3
+		WalkWest4 0x3
+		WalkSouth4 0x3
+		WalkOnSpotNorth8 0x1
 End
 

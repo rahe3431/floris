@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0024
- * Generated: 3/6/2026 7:25:18 PM
+ * Generated: 5/20/2026 9:55:26 PM
  */
 
 //===== SCRIPTS =====//
@@ -238,76 +238,76 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	0069 0x1
-	SetInvisible 0x1
+		0069 0x1
+		SetInvisible 0x1
 End
 
 Action 2:
-	006A 0x1
-	SetInvisible 0x1
+		006A 0x1
+		SetInvisible 0x1
 End
 
 Action 3:
-	006B 0x1
-	FaceEast 0x1
+		006B 0x1
+		FaceEast 0x1
 End
 
 Action 4:
-	Delay4 0x6
-	006C 0x1
-	SetInvisible 0x1
+		Delay4 0x6
+		006C 0x1
+		SetInvisible 0x1
 End
 
 Action 5:
-	006D 0x1
-	FaceEast 0x1
+		006D 0x1
+		FaceEast 0x1
 End
 
 Action 6:
-	Delay4 0x6
-	006E 0x1
-	SetInvisible 0x1
+		Delay4 0x6
+		006E 0x1
+		SetInvisible 0x1
 End
 
 Action 7:
-	WalkWest8 0x1
-	FaceSouth 0x1
+		WalkWest8 0x1
+		FaceSouth 0x1
 End
 
 Action 8:
-	WalkSouth4 0x1
-	WalkWest4 0x3
-	FaceSouth 0x1
+		WalkSouth4 0x1
+		WalkWest4 0x3
+		FaceSouth 0x1
 End
 
 Action 9:
-	WalkWest4 0x5
-	WalkSouth4 0x1
-	FaceSouth 0x1
+		WalkWest4 0x5
+		WalkSouth4 0x1
+		FaceSouth 0x1
 End
 
 Action 10:
-	Delay4 0x6
-	FaceWest 0x1
+		Delay4 0x6
+		FaceWest 0x1
 End
 
 Action 11:
-	WalkWest4 0x1
-	FaceNorth 0x1
+		WalkWest4 0x1
+		FaceNorth 0x1
 End
 
 Action 12:
-	FaceEast 0x1
+		FaceEast 0x1
 End
 
 Action 13:
-	WalkEast4 0x4
-	WalkNorth4 0x1
+		WalkEast4 0x4
+		WalkNorth4 0x1
 End
 
 Action 14:
-	WalkNorth4 0x1
-	WalkEast4 0x5
-	FaceNorth 0x1
+		WalkNorth4 0x1
+		WalkEast4 0x5
+		FaceNorth 0x1
 End
 

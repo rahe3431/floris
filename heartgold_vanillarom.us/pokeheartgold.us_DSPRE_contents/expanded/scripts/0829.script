@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0829
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:39 PM
  */
 
 //===== SCRIPTS =====//
@@ -166,22 +166,22 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	FaceSouth 0x2
-	FaceWest 0x2
-	FaceNorth 0x2
-	FaceEast 0x2
-	FaceSouth 0x2
-	FaceWest 0x2
-	FaceNorth 0x2
-	FaceEast 0x2
-	FaceSouth 0x2
-	FaceWest 0x2
-	FaceNorth 0x2
-	FaceEast 0x2
-	FaceSouth 0x2
-	FaceWest 0x2
-	FaceNorth 0x2
-	FaceEast 0x1
-	SetInvisible 0x0
+		FaceSouth 0x2
+		FaceWest 0x2
+		FaceNorth 0x2
+		FaceEast 0x2
+		FaceSouth 0x2
+		FaceWest 0x2
+		FaceNorth 0x2
+		FaceEast 0x2
+		FaceSouth 0x2
+		FaceWest 0x2
+		FaceNorth 0x2
+		FaceEast 0x2
+		FaceSouth 0x2
+		FaceWest 0x2
+		FaceNorth 0x2
+		FaceEast 0x1
+		SetInvisible 0x0
 End
 

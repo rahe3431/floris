@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0776
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:38 PM
  */
 
 //===== SCRIPTS =====//
@@ -585,213 +585,213 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 2:
-	EmoteExclamation 0x1
+		EmoteExclamation 0x1
 End
 
 Action 3:
-	Delay8 0x1
-	WalkEast4 0x7
-	WalkNorth4 0x3
-	WalkEast4 0x1
+		Delay8 0x1
+		WalkEast4 0x7
+		WalkNorth4 0x3
+		WalkEast4 0x1
 End
 
 Action 4:
-	WalkSouth8 0x4
-	WalkEast8 0x2
+		WalkSouth8 0x4
+		WalkEast8 0x2
 End
 
 Action 5:
-	Delay4 0x9
-	0070 0x1
+		Delay4 0x9
+		0070 0x1
 End
 
 Action 6:
-	EmoteExclamation 0x1
-	Delay8 0x1
-	WalkWest8 0x4
-	WalkOnSpotWest8 0x1
+		EmoteExclamation 0x1
+		Delay8 0x1
+		WalkWest8 0x4
+		WalkOnSpotWest8 0x1
 End
 
 Action 7:
-	Delay16 0x4
-	WalkSouth8 0x1
-	WalkOnSpotEast8 0x1
+		Delay16 0x4
+		WalkSouth8 0x1
+		WalkOnSpotEast8 0x1
 End
 
 Action 8:
-	WalkOnSpotWest8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 9:
-	WalkNorth8 0x1
-	WalkEast8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 10:
-	Delay8 0x1
-	WalkOnSpotNorth8 0x1
+		Delay8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 11:
-	WalkEast8 0x1
-	WalkNorth8 0x1
-	FaceSouth 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x1
+		FaceSouth 0x1
 End
 
 Action 12:
-	WalkEast8 0x2
-	WalkNorth8 0x2
-	WalkEast8 0x1
+		WalkEast8 0x2
+		WalkNorth8 0x2
+		WalkEast8 0x1
 End
 
 Action 13:
-	Delay8 0x1
-	WalkSouth4 0x6
-	WalkEast4 0x1
+		Delay8 0x1
+		WalkSouth4 0x6
+		WalkEast4 0x1
 End
 
 Action 14:
-	WalkOnSpotEast8 0x1
+		WalkOnSpotEast8 0x1
 End
 
 Action 15:
-	Delay4 0x4
-	WalkSouth2 0x2
-	JumpSouth8 0x1
-	JumpFarSouth 0x1
-	WalkSouth2 0x2
-	JumpSouth8 0x1
-	JumpFarSouth 0x2
+		Delay4 0x4
+		WalkSouth2 0x2
+		JumpSouth8 0x1
+		JumpFarSouth 0x1
+		WalkSouth2 0x2
+		JumpSouth8 0x1
+		JumpFarSouth 0x2
 End
 
 Action 16:
-	Delay4 0x2
-	WalkEast4 0x1
-	WalkSouth4 0x2
+		Delay4 0x2
+		WalkEast4 0x1
+		WalkSouth4 0x2
 End
 
 Action 17:
-	Delay4 0x4
-	FaceSouth 0x1
+		Delay4 0x4
+		FaceSouth 0x1
 End
 
 Action 18:
-	JumpOnSpotSouth8 0x3
+		JumpOnSpotSouth8 0x3
 End
 
 Action 19:
-	FaceWest 0x1
+		FaceWest 0x1
 End
 
 Action 20:
-	FaceEast 0x1
+		FaceEast 0x1
 End
 
 Action 21:
-	WalkNorth8 0x8
+		WalkNorth8 0x8
 End
 
 Action 22:
-	FaceNorth 0x1
+		FaceNorth 0x1
 End
 
 Action 23:
-	Delay8 0x2
-	WalkEast4 0x7
-	WalkNorth4 0x3
-	WalkEast4 0x1
+		Delay8 0x2
+		WalkEast4 0x7
+		WalkNorth4 0x3
+		WalkEast4 0x1
 End
 
 Action 24:
-	WalkSouth8 0x4
-	WalkEast8 0x1
+		WalkSouth8 0x4
+		WalkEast8 0x1
 End
 
 Action 25:
-	Delay4 0xB
-	0070 0x1
+		Delay4 0xB
+		0070 0x1
 End
 
 Action 26:
-	FaceNorth 0x1
+		FaceNorth 0x1
 End
 
 Action 27:
-	FaceSouth 0x1
+		FaceSouth 0x1
 End
 
 Action 28:
-	WalkWest8 0x2
-	WalkNorth8 0xD
+		WalkWest8 0x2
+		WalkNorth8 0xD
 End
 
 Action 29:
-	Delay8 0x2
-	FaceWest 0x1
-	Delay8 0x1
-	FaceNorth 0x1
+		Delay8 0x2
+		FaceWest 0x1
+		Delay8 0x1
+		FaceNorth 0x1
 End
 
 Action 30:
-	WalkEast8 0xA
+		WalkEast8 0xA
 End
 
 Action 31:
-	WalkNorth8 0x1
-	WalkWest8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x1
+		WalkWest8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 32:
-	WalkEast8 0x2
-	WalkNorth8 0x3
-	WalkEast8 0x1
+		WalkEast8 0x2
+		WalkNorth8 0x3
+		WalkEast8 0x1
 End
 
 Action 33:
-	Delay4 0x3
-	WalkSouth4 0x6
-	WalkEast4 0x1
+		Delay4 0x3
+		WalkSouth4 0x6
+		WalkEast4 0x1
 End
 
 Action 34:
-	FaceSouth 0x1
+		FaceSouth 0x1
 End
 
 Action 35:
-	Delay8 0x3
-	WalkEast4 0x7
-	WalkNorth4 0x3
-	WalkEast4 0x1
+		Delay8 0x3
+		WalkEast4 0x7
+		WalkNorth4 0x3
+		WalkEast4 0x1
 End
 
 Action 36:
-	WalkSouth8 0x4
-	FaceEast 0x1
+		WalkSouth8 0x4
+		FaceEast 0x1
 End
 
 Action 37:
-	Delay4 0xD
-	0070 0x1
+		Delay4 0xD
+		0070 0x1
 End
 
 Action 38:
-	WalkEast8 0x2
-	WalkNorth8 0x4
-	WalkEast8 0x1
+		WalkEast8 0x2
+		WalkNorth8 0x4
+		WalkEast8 0x1
 End
 
 Action 39:
-	Delay4 0x5
-	WalkSouth4 0x6
-	WalkEast4 0x1
+		Delay4 0x5
+		WalkSouth4 0x6
+		WalkEast4 0x1
 End
 

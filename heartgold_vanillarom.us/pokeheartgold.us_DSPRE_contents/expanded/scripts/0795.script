@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0795
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:38 PM
  */
 
 //===== SCRIPTS =====//
@@ -442,6 +442,6 @@ Jump Function#32
 
 //===== ACTIONS =====//
 Action 1:
-	WalkOnSpotSouth8 0x1
+		WalkOnSpotSouth8 0x1
 End
 

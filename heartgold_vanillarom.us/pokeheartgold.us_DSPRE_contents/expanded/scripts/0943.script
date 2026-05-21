@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0943
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:41 PM
  */
 
 //===== SCRIPTS =====//
@@ -300,68 +300,68 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	FaceSouth 0x2
-	FaceWest 0x2
-	FaceNorth 0x2
-	FaceEast 0x2
-	FaceSouth 0x2
-	FaceWest 0x2
-	FaceNorth 0x2
-	FaceEast 0x2
-	FaceSouth 0x2
-	FaceWest 0x2
-	FaceNorth 0x2
-	FaceEast 0x2
-	FaceSouth 0x2
-	FaceWest 0x2
-	FaceNorth 0x2
-	FaceEast 0x1
-	SetInvisible 0x0
+		FaceSouth 0x2
+		FaceWest 0x2
+		FaceNorth 0x2
+		FaceEast 0x2
+		FaceSouth 0x2
+		FaceWest 0x2
+		FaceNorth 0x2
+		FaceEast 0x2
+		FaceSouth 0x2
+		FaceWest 0x2
+		FaceNorth 0x2
+		FaceEast 0x2
+		FaceSouth 0x2
+		FaceWest 0x2
+		FaceNorth 0x2
+		FaceEast 0x1
+		SetInvisible 0x0
 End
 
 Action 2:
-	FaceWest 0x1
-	EmoteExclamation 0x1
-	WalkWest8 0x2
+		FaceWest 0x1
+		EmoteExclamation 0x1
+		WalkWest8 0x2
 End
 
 Action 3:
-	Delay8 0x5
-	FaceEast 0x1
+		Delay8 0x5
+		FaceEast 0x1
 End
 
 Action 4:
-	FaceWest 0x1
-	EmoteExclamation 0x1
-	WalkWest8 0x1
+		FaceWest 0x1
+		EmoteExclamation 0x1
+		WalkWest8 0x1
 End
 
 Action 5:
-	Delay8 0x4
-	FaceEast 0x1
+		Delay8 0x4
+		FaceEast 0x1
 End
 
 Action 6:
-	WalkEast8 0x2
-	FaceSouth 0x1
+		WalkEast8 0x2
+		FaceSouth 0x1
 End
 
 Action 7:
-	FaceWest 0x1
-	EmoteExclamation 0x1
+		FaceWest 0x1
+		EmoteExclamation 0x1
 End
 
 Action 8:
-	Delay8 0x2
-	FaceEast 0x1
+		Delay8 0x2
+		FaceEast 0x1
 End
 
 Action 9:
-	WalkEast8 0x1
-	FaceSouth 0x1
+		WalkEast8 0x1
+		FaceSouth 0x1
 End
 
 Action 10:
-	FaceSouth 0x1
+		FaceSouth 0x1
 End
 

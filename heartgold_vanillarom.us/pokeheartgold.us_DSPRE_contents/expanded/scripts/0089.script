@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0089
- * Generated: 3/6/2026 7:25:18 PM
+ * Generated: 5/20/2026 9:55:27 PM
  */
 
 //===== SCRIPTS =====//
@@ -1278,117 +1278,117 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	EmoteExclamation 0x1
-	Delay8 0x2
-	FaceEast 0x2
-	Delay8 0x1
-	FaceWest 0x2
-	Delay8 0x1
-	FaceEast 0x2
-	Delay8 0x1
-	FaceNorth 0x2
-	Delay8 0x1
+		EmoteExclamation 0x1
+		Delay8 0x2
+		FaceEast 0x2
+		Delay8 0x1
+		FaceWest 0x2
+		Delay8 0x1
+		FaceEast 0x2
+		Delay8 0x1
+		FaceNorth 0x2
+		Delay8 0x1
 End
 
 Action 2:
-	EmoteExclamation 0x1
-	Delay8 0x2
+		EmoteExclamation 0x1
+		Delay8 0x2
 End
 
 Action 3:
-	FaceSouth 0x1
+		FaceSouth 0x1
 End
 
 Action 4:
-	WalkEast2 0xB
-	FaceNorth 0x2
+		WalkEast2 0xB
+		FaceNorth 0x2
 End
 
 Action 5:
-	FaceSouth 0x2
-	Delay8 0x2
+		FaceSouth 0x2
+		Delay8 0x2
 End
 
 Action 6:
-	FaceWest 0x2
-	WalkWest2 0xA
+		FaceWest 0x2
+		WalkWest2 0xA
 End
 
 Action 7:
-	FaceNorth 0x1
+		FaceNorth 0x1
 End
 
 Action 8:
-	WalkWest2 0x9
-	FaceNorth 0x2
+		WalkWest2 0x9
+		FaceNorth 0x2
 End
 
 Action 9:
-	FaceEast 0x2
-	WalkEast2 0xA
+		FaceEast 0x2
+		WalkEast2 0xA
 End
 
 Action 10:
-	WalkEast2 0xB
-	FaceNorth 0x2
+		WalkEast2 0xB
+		FaceNorth 0x2
 End
 
 Action 11:
-	FaceWest 0x2
-	WalkWest2 0xA
+		FaceWest 0x2
+		WalkWest2 0xA
 End
 
 Action 12:
-	WalkEast2 0xB
-	FaceNorth 0x2
+		WalkEast2 0xB
+		FaceNorth 0x2
 End
 
 Action 13:
-	FaceWest 0x2
-	WalkWest2 0xA
+		FaceWest 0x2
+		WalkWest2 0xA
 End
 
 Action 14:
-	WalkWest2 0x9
-	FaceNorth 0x2
+		WalkWest2 0x9
+		FaceNorth 0x2
 End
 
 Action 15:
-	FaceEast 0x2
-	WalkEast2 0xA
+		FaceEast 0x2
+		WalkEast2 0xA
 End
 
 Action 16:
-	WalkEast2 0xB
-	FaceSouth 0x2
+		WalkEast2 0xB
+		FaceSouth 0x2
 End
 
 Action 17:
-	FaceNorth 0x2
-	Delay8 0x2
+		FaceNorth 0x2
+		Delay8 0x2
 End
 
 Action 18:
-	FaceWest 0x1
+		FaceWest 0x1
 End
 
 Action 19:
-	WalkWest2 0x9
-	FaceSouth 0x2
+		WalkWest2 0x9
+		FaceSouth 0x2
 End
 
 Action 20:
-	WalkEast2 0xB
-	FaceSouth 0x2
+		WalkEast2 0xB
+		FaceSouth 0x2
 End
 
 Action 21:
-	WalkEast2 0xB
-	FaceSouth 0x2
+		WalkEast2 0xB
+		FaceSouth 0x2
 End
 
 Action 22:
-	WalkWest2 0x9
-	FaceSouth 0x2
+		WalkWest2 0x9
+		FaceSouth 0x2
 End
 

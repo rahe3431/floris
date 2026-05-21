@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0225
- * Generated: 3/6/2026 7:25:18 PM
+ * Generated: 5/20/2026 9:55:34 PM
  */
 
 //===== SCRIPTS =====//
@@ -495,344 +495,344 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	WalkSouth4 0x1
-	WalkEast4 0x2
-	WalkNorth4 0x1
-	JumpOnSpotWest8 0x2
+		WalkSouth4 0x1
+		WalkEast4 0x2
+		WalkNorth4 0x1
+		JumpOnSpotWest8 0x2
 End
 
 Action 2:
-	WalkOnSpotEast8 0x1
-	EmoteExclamation 0x1
+		WalkOnSpotEast8 0x1
+		EmoteExclamation 0x1
 End
 
 Action 3:
-	WalkNorth4 0x4
-	WalkEast4 0x2
-	WalkSouth4 0x2
-	WalkWest4 0x2
-	WalkNorth4 0x2
-	WalkEast4 0x4
+		WalkNorth4 0x4
+		WalkEast4 0x2
+		WalkSouth4 0x2
+		WalkWest4 0x2
+		WalkNorth4 0x2
+		WalkEast4 0x4
 End
 
 Action 4:
-	WalkWest4 0x1
-	WalkNorth4 0x4
-	WalkEast4 0x2
-	WalkSouth4 0x2
-	WalkWest4 0x2
-	WalkNorth4 0x2
-	WalkEast4 0x3
+		WalkWest4 0x1
+		WalkNorth4 0x4
+		WalkEast4 0x2
+		WalkSouth4 0x2
+		WalkWest4 0x2
+		WalkNorth4 0x2
+		WalkEast4 0x3
 End
 
 Action 5:
-	WalkEast8 0x2
-	WalkNorth8 0x3
-	WalkEast8 0x2
+		WalkEast8 0x2
+		WalkNorth8 0x3
+		WalkEast8 0x2
 End
 
 Action 6:
-	WalkWest8 0x1
-	WalkEast8 0x2
-	WalkNorth8 0x3
-	WalkEast8 0x1
+		WalkWest8 0x1
+		WalkEast8 0x2
+		WalkNorth8 0x3
+		WalkEast8 0x1
 End
 
 Action 7:
-	WalkSouth8 0x6
-	WalkWest8 0x9
+		WalkSouth8 0x6
+		WalkWest8 0x9
 End
 
 Action 8:
-	WalkEast8 0x1
-	WalkSouth8 0x6
-	WalkWest8 0x8
+		WalkEast8 0x1
+		WalkSouth8 0x6
+		WalkWest8 0x8
 End
 
 Action 9:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x6
-	WalkWest8 0x5
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x6
+		WalkWest8 0x5
 End
 
 Action 10:
-	WalkEast8 0x2
-	WalkNorth8 0x2
-	WalkEast8 0x2
+		WalkEast8 0x2
+		WalkNorth8 0x2
+		WalkEast8 0x2
 End
 
 Action 11:
-	WalkWest8 0x1
-	WalkEast8 0x2
-	WalkNorth8 0x2
-	WalkEast8 0x1
+		WalkWest8 0x1
+		WalkEast8 0x2
+		WalkNorth8 0x2
+		WalkEast8 0x1
 End
 
 Action 12:
-	WalkSouth8 0x5
-	WalkWest8 0x9
+		WalkSouth8 0x5
+		WalkWest8 0x9
 End
 
 Action 13:
-	WalkEast8 0x1
-	WalkSouth8 0x5
-	WalkWest8 0x8
+		WalkEast8 0x1
+		WalkSouth8 0x5
+		WalkWest8 0x8
 End
 
 Action 14:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x5
-	WalkWest8 0x5
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x5
+		WalkWest8 0x5
 End
 
 Action 15:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x6
-	WalkWest8 0x7
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x6
+		WalkWest8 0x7
 End
 
 Action 16:
-	WalkEast8 0x2
-	WalkNorth8 0x1
-	WalkEast8 0x2
+		WalkEast8 0x2
+		WalkNorth8 0x1
+		WalkEast8 0x2
 End
 
 Action 17:
-	WalkWest8 0x1
-	WalkEast8 0x2
-	WalkNorth8 0x1
-	WalkEast8 0x1
+		WalkWest8 0x1
+		WalkEast8 0x2
+		WalkNorth8 0x1
+		WalkEast8 0x1
 End
 
 Action 18:
-	WalkSouth8 0x4
-	WalkWest8 0x9
+		WalkSouth8 0x4
+		WalkWest8 0x9
 End
 
 Action 19:
-	WalkEast8 0x1
-	WalkSouth8 0x4
-	WalkWest8 0x8
+		WalkEast8 0x1
+		WalkSouth8 0x4
+		WalkWest8 0x8
 End
 
 Action 20:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x4
-	WalkWest8 0x5
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x4
+		WalkWest8 0x5
 End
 
 Action 21:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x5
-	WalkWest8 0x7
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x5
+		WalkWest8 0x7
 End
 
 Action 22:
-	WalkEast8 0x1
+		WalkEast8 0x1
 End
 
 Action 23:
-	WalkWest8 0x1
-	WalkOnSpotEast8 0x1
+		WalkWest8 0x1
+		WalkOnSpotEast8 0x1
 End
 
 Action 24:
-	WalkSouth8 0x2
-	WalkWest8 0x4
-	WalkSouth8 0x4
-	WalkWest8 0x3
+		WalkSouth8 0x2
+		WalkWest8 0x4
+		WalkSouth8 0x4
+		WalkWest8 0x3
 End
 
 Action 25:
-	WalkEast8 0x1
-	WalkSouth8 0x2
-	WalkWest8 0x4
-	WalkSouth8 0x4
-	WalkWest8 0x2
+		WalkEast8 0x1
+		WalkSouth8 0x2
+		WalkWest8 0x4
+		WalkSouth8 0x4
+		WalkWest8 0x2
 End
 
 Action 26:
-	WalkEast8 0x4
+		WalkEast8 0x4
 End
 
 Action 27:
-	WalkWest8 0x1
-	WalkEast8 0x3
+		WalkWest8 0x1
+		WalkEast8 0x3
 End
 
 Action 28:
-	WalkSouth8 0x3
-	WalkWest8 0x9
+		WalkSouth8 0x3
+		WalkWest8 0x9
 End
 
 Action 29:
-	WalkEast8 0x1
-	WalkSouth8 0x3
-	WalkWest8 0x8
+		WalkEast8 0x1
+		WalkSouth8 0x3
+		WalkWest8 0x8
 End
 
 Action 30:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x3
-	WalkWest8 0x5
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x3
+		WalkWest8 0x5
 End
 
 Action 31:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x4
-	WalkWest8 0x7
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x4
+		WalkWest8 0x7
 End
 
 Action 32:
-	EmoteExclamation 0x1
+		EmoteExclamation 0x1
 End
 
 Action 33:
-	JumpOnSpotWest8 0x3
-	Delay16 0x1
-	JumpOnSpotWest8 0x3
-	Delay8 0x3
-	JumpOnSpotWest8 0x3
-	Delay8 0x3
+		JumpOnSpotWest8 0x3
+		Delay16 0x1
+		JumpOnSpotWest8 0x3
+		Delay8 0x3
+		JumpOnSpotWest8 0x3
+		Delay8 0x3
 End
 
 Action 34:
-	Delay8 0x3
-	JumpFarWest 0x1
-	Delay8 0x3
-	JumpOnSpotWest8 0x3
-	Delay8 0x3
-	JumpOnSpotWest8 0x3
+		Delay8 0x3
+		JumpFarWest 0x1
+		Delay8 0x3
+		JumpOnSpotWest8 0x3
+		Delay8 0x3
+		JumpOnSpotWest8 0x3
 End
 
 Action 35:
-	WalkEast8 0x3
+		WalkEast8 0x3
 End
 
 Action 36:
-	WalkEast8 0x3
+		WalkEast8 0x3
 End
 
 Action 37:
-	WalkWest8 0x3
+		WalkWest8 0x3
 End
 
 Action 38:
-	WalkEast8 0x1
-	WalkWest8 0x2
+		WalkEast8 0x1
+		WalkWest8 0x2
 End
 
 Action 39:
-	Delay8 0x1
-	WalkWest8 0x2
+		Delay8 0x1
+		WalkWest8 0x2
 End
 
 Action 40:
-	WalkEast8 0x2
-	WalkSouth8 0x1
-	WalkEast8 0x2
+		WalkEast8 0x2
+		WalkSouth8 0x1
+		WalkEast8 0x2
 End
 
 Action 41:
-	WalkWest8 0x1
-	WalkEast8 0x2
-	WalkSouth8 0x1
-	WalkEast8 0x1
+		WalkWest8 0x1
+		WalkEast8 0x2
+		WalkSouth8 0x1
+		WalkEast8 0x1
 End
 
 Action 42:
-	WalkSouth8 0x2
-	WalkWest8 0x9
+		WalkSouth8 0x2
+		WalkWest8 0x9
 End
 
 Action 43:
-	WalkEast8 0x1
-	WalkSouth8 0x2
-	WalkWest8 0x8
+		WalkEast8 0x1
+		WalkSouth8 0x2
+		WalkWest8 0x8
 End
 
 Action 44:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x2
-	WalkWest8 0x5
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x2
+		WalkWest8 0x5
 End
 
 Action 45:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x3
-	WalkWest8 0x7
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x3
+		WalkWest8 0x7
 End
 
 Action 46:
-	WalkEast8 0x2
-	WalkSouth8 0x2
-	WalkEast8 0x2
+		WalkEast8 0x2
+		WalkSouth8 0x2
+		WalkEast8 0x2
 End
 
 Action 47:
-	WalkWest8 0x1
-	WalkEast8 0x2
-	WalkSouth8 0x2
-	WalkEast8 0x1
+		WalkWest8 0x1
+		WalkEast8 0x2
+		WalkSouth8 0x2
+		WalkEast8 0x1
 End
 
 Action 48:
-	WalkSouth8 0x1
-	WalkWest8 0x9
+		WalkSouth8 0x1
+		WalkWest8 0x9
 End
 
 Action 49:
-	WalkEast8 0x1
-	WalkSouth8 0x1
-	WalkWest8 0x8
+		WalkEast8 0x1
+		WalkSouth8 0x1
+		WalkWest8 0x8
 End
 
 Action 50:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x1
-	WalkWest8 0x5
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x1
+		WalkWest8 0x5
 End
 
 Action 51:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x2
-	WalkWest8 0x7
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x2
+		WalkWest8 0x7
 End
 
 Action 52:
-	WalkWest8 0x9
+		WalkWest8 0x9
 End
 
 Action 53:
-	WalkEast8 0x1
-	WalkWest8 0x8
+		WalkEast8 0x1
+		WalkWest8 0x8
 End
 
 Action 54:
-	Delay8 0x1
-	WalkWest8 0x6
+		Delay8 0x1
+		WalkWest8 0x6
 End
 
 Action 55:
-	Delay8 0x1
-	WalkWest8 0x1
-	WalkSouth8 0x1
-	WalkWest8 0x7
+		Delay8 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x1
+		WalkWest8 0x7
 End
 
 Action 56:
-	Delay8 0x1
-	WalkWest8 0x8
+		Delay8 0x1
+		WalkWest8 0x8
 End
 

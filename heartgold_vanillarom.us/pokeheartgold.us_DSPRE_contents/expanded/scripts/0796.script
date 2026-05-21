@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0796
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:39 PM
  */
 
 //===== SCRIPTS =====//
@@ -45,7 +45,7 @@ Script 4:
 	PlayFanfare SEQ_SE_CONFIRM
 	LockAll
 	FacePlayer
-	PlayCry SPECIES_NIDORAN♀ 0
+	PlayCry SPECIES_NIDORAN_F 0
 	Message 3
 	WaitCry
 	WaitButton

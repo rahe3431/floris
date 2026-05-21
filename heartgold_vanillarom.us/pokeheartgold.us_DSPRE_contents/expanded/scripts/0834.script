@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0834
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:39 PM
  */
 
 //===== SCRIPTS =====//
@@ -263,23 +263,23 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	WalkOnSpotWest8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 2:
-	WalkSouth8 0x2
+		WalkSouth8 0x2
 End
 
 Action 3:
-	WalkWest6 0x5
-	WalkSouth6 0xA
+		WalkWest6 0x5
+		WalkSouth6 0xA
 End
 
 Action 4:
-	WalkSouth6 0xA
+		WalkSouth6 0xA
 End
 
 Action 5:
-	FaceEast 0x1
+		FaceEast 0x1
 End
 

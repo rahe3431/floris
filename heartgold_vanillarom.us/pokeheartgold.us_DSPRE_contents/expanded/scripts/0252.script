@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0252
- * Generated: 3/6/2026 7:25:18 PM
+ * Generated: 5/20/2026 9:55:35 PM
  */
 
 //===== SCRIPTS =====//
@@ -206,110 +206,110 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	EmoteExclamation 0x1
+		EmoteExclamation 0x1
 End
 
 Action 2:
-	WalkSouth4 0x1
-	WalkWest4 0x1
+		WalkSouth4 0x1
+		WalkWest4 0x1
 End
 
 Action 3:
-	Delay4 0x3
-	WalkWest2 0x2
-	JumpFarWest 0x1
-	WalkWest2 0x2
-	JumpFarNorth 0x2
-	0070 0x1
+		Delay4 0x3
+		WalkWest2 0x2
+		JumpFarWest 0x1
+		WalkWest2 0x2
+		JumpFarNorth 0x2
+		0070 0x1
 End
 
 Action 4:
-	EmoteExclamation 0x1
-	LockDir 0x1
-	WalkNorth4 0x4
-	ReleaseDir 0x1
-	Delay16 0x1
-	WalkEast8 0x1
+		EmoteExclamation 0x1
+		LockDir 0x1
+		WalkNorth4 0x4
+		ReleaseDir 0x1
+		Delay16 0x1
+		WalkEast8 0x1
 End
 
 Action 5:
-	WalkEast8 0x4
-	WalkNorth8 0x3
-	WalkEast8 0x6
+		WalkEast8 0x4
+		WalkNorth8 0x3
+		WalkEast8 0x6
 End
 
 Action 6:
-	WalkNorth8 0x1
-	FaceWest 0x1
+		WalkNorth8 0x1
+		FaceWest 0x1
 End
 
 Action 7:
-	WalkEast8 0x1
+		WalkEast8 0x1
 End
 
 Action 8:
-	WalkEast8 0x9
+		WalkEast8 0x9
 End
 
 Action 9:
-	WalkSouth4 0x2
-	WalkWest4 0x1
+		WalkSouth4 0x2
+		WalkWest4 0x1
 End
 
 Action 10:
-	FaceEast 0x1
-	LockDir 0x1
-	JumpFarWest 0x1
-	ReleaseDir 0x1
+		FaceEast 0x1
+		LockDir 0x1
+		JumpFarWest 0x1
+		ReleaseDir 0x1
 End
 
 Action 11:
-	WalkWest8 0x2
+		WalkWest8 0x2
 End
 
 Action 12:
-	WalkSouth8 0x1
-	WalkWest8 0x5
-	WalkSouth8 0x2
-	WalkWest8 0x5
+		WalkSouth8 0x1
+		WalkWest8 0x5
+		WalkSouth8 0x2
+		WalkWest8 0x5
 End
 
 Action 13:
-	WalkSouth4 0x3
-	WalkWest4 0x1
+		WalkSouth4 0x3
+		WalkWest4 0x1
 End
 
 Action 14:
-	WalkSouth8 0x1
-	WalkWest8 0x5
-	WalkSouth8 0x1
-	WalkWest8 0x5
+		WalkSouth8 0x1
+		WalkWest8 0x5
+		WalkSouth8 0x1
+		WalkWest8 0x5
 End
 
 Action 15:
-	WalkSouth4 0x4
-	WalkWest4 0x1
+		WalkSouth4 0x4
+		WalkWest4 0x1
 End
 
 Action 16:
-	WalkSouth8 0x1
-	WalkWest8 0xA
+		WalkSouth8 0x1
+		WalkWest8 0xA
 End
 
 Action 17:
-	WalkSouth4 0x5
-	WalkWest4 0x1
+		WalkSouth4 0x5
+		WalkWest4 0x1
 End
 
 Action 18:
-	WalkSouth8 0x1
-	WalkWest8 0x4
-	WalkNorth8 0x1
-	WalkWest8 0x5
+		WalkSouth8 0x1
+		WalkWest8 0x4
+		WalkNorth8 0x1
+		WalkWest8 0x5
 End
 
 Action 19:
-	WalkNorth8 0x1
-	WalkWest8 0xA
+		WalkNorth8 0x1
+		WalkWest8 0xA
 End
 

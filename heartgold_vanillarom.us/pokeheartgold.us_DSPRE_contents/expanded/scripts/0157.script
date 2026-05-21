@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0157
- * Generated: 3/6/2026 7:25:18 PM
+ * Generated: 5/20/2026 9:55:34 PM
  */
 
 //===== SCRIPTS =====//
@@ -255,14 +255,14 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	EmoteExclamation 0x1
-	Delay8 0x1
-	FaceNorth 0x2
+		EmoteExclamation 0x1
+		Delay8 0x1
+		FaceNorth 0x2
 End
 
 Action 2:
-	EmoteExclamation 0x1
-	Delay8 0x1
-	FaceEast 0x2
+		EmoteExclamation 0x1
+		Delay8 0x1
+		FaceEast 0x2
 End
 

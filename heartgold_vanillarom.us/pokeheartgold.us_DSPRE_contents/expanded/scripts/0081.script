@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0081
- * Generated: 3/6/2026 7:25:18 PM
+ * Generated: 5/20/2026 9:55:27 PM
  */
 
 //===== SCRIPTS =====//
@@ -302,104 +302,104 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	WalkWest4 0x1
-	WalkNorth4 0x5
-	WalkNorth6 0x2
-	WalkNorth8 0x1
-	WalkOnSpotWest8 0x1
+		WalkWest4 0x1
+		WalkNorth4 0x5
+		WalkNorth6 0x2
+		WalkNorth8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 2:
-	Delay8 0x5
-	WalkOnSpotEast8 0x1
+		Delay8 0x5
+		WalkOnSpotEast8 0x1
 End
 
 Action 3:
-	WalkEast8 0x1
-	WalkNorth8 0x2
-	WalkWest8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x2
+		WalkWest8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 4:
-	Delay8 0x1
-	WalkOnSpotNorth8 0x1
+		Delay8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 5:
-	FaceSouth 0x1
+		FaceSouth 0x1
 End
 
 Action 6:
-	WalkNorth4 0x5
-	WalkNorth6 0x2
-	WalkNorth8 0x1
-	WalkOnSpotWest8 0x1
+		WalkNorth4 0x5
+		WalkNorth6 0x2
+		WalkNorth8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 7:
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 8:
-	WalkEast8 0x1
-	WalkNorth8 0x1
-	FaceSouth 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x1
+		FaceSouth 0x1
 End
 
 Action 9:
-	FaceNorth 0x1
+		FaceNorth 0x1
 End
 
 Action 10:
-	WalkEast8 0x1
-	WalkNorth4 0x5
-	WalkNorth6 0x2
-	WalkNorth8 0x1
-	WalkOnSpotWest8 0x1
+		WalkEast8 0x1
+		WalkNorth4 0x5
+		WalkNorth6 0x2
+		WalkNorth8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 11:
-	WalkNorth8 0x1
-	WalkEast8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 12:
-	WalkNorth4 0x5
-	WalkNorth6 0x2
-	WalkNorth8 0x1
-	WalkOnSpotEast8 0x1
+		WalkNorth4 0x5
+		WalkNorth6 0x2
+		WalkNorth8 0x1
+		WalkOnSpotEast8 0x1
 End
 
 Action 13:
-	Delay8 0x5
-	WalkOnSpotWest8 0x1
+		Delay8 0x5
+		WalkOnSpotWest8 0x1
 End
 
 Action 14:
-	WalkNorth8 0x1
-	WalkWest8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x1
+		WalkWest8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 15:
-	WalkEast8 0x1
-	WalkNorth4 0x5
-	WalkNorth6 0x2
-	WalkNorth8 0x1
-	WalkOnSpotEast8 0x1
+		WalkEast8 0x1
+		WalkNorth4 0x5
+		WalkNorth6 0x2
+		WalkNorth8 0x1
+		WalkOnSpotEast8 0x1
 End
 
 Action 16:
-	WalkEast4 0x2
-	WalkNorth4 0x5
-	WalkNorth6 0x2
-	WalkNorth8 0x1
-	WalkOnSpotEast8 0x1
+		WalkEast4 0x2
+		WalkNorth4 0x5
+		WalkNorth6 0x2
+		WalkNorth8 0x1
+		WalkOnSpotEast8 0x1
 End
 

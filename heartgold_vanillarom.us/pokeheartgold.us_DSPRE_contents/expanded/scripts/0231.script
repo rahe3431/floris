@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0231
- * Generated: 3/6/2026 7:25:18 PM
+ * Generated: 5/20/2026 9:55:34 PM
  */
 
 //===== SCRIPTS =====//
@@ -230,190 +230,190 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	SetInvisible 0x1
+		SetInvisible 0x1
 End
 
 Action 2:
-	EmoteExclamation 0x1
+		EmoteExclamation 0x1
 End
 
 Action 3:
-	WalkWest8 0x2
-	WalkNorth8 0x1
-	WalkWest8 0x1
+		WalkWest8 0x2
+		WalkNorth8 0x1
+		WalkWest8 0x1
 End
 
 Action 4:
-	Delay8 0x1
-	SetVisible 0x1
-	WalkWest8 0x2
-	WalkNorth8 0x1
-	WalkOnSpotWest8 0x1
+		Delay8 0x1
+		SetVisible 0x1
+		WalkWest8 0x2
+		WalkNorth8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 5:
-	WalkWest8 0x2
-	WalkNorth8 0x1
-	WalkWest8 0x2
+		WalkWest8 0x2
+		WalkNorth8 0x1
+		WalkWest8 0x2
 End
 
 Action 6:
-	Delay8 0x1
-	SetVisible 0x1
-	WalkWest8 0x2
-	WalkNorth8 0x1
-	WalkWest8 0x1
+		Delay8 0x1
+		SetVisible 0x1
+		WalkWest8 0x2
+		WalkNorth8 0x1
+		WalkWest8 0x1
 End
 
 Action 7:
-	WalkWest8 0x3
+		WalkWest8 0x3
 End
 
 Action 8:
-	Delay8 0x1
-	SetVisible 0x1
-	WalkWest8 0x2
+		Delay8 0x1
+		SetVisible 0x1
+		WalkWest8 0x2
 End
 
 Action 9:
-	WalkWest8 0x4
+		WalkWest8 0x4
 End
 
 Action 10:
-	Delay8 0x1
-	SetVisible 0x1
-	WalkWest8 0x3
+		Delay8 0x1
+		SetVisible 0x1
+		WalkWest8 0x3
 End
 
 Action 11:
-	WalkOnSpotEast8 0x1
+		WalkOnSpotEast8 0x1
 End
 
 Action 12:
-	JumpOnSpotWest8 0x2
+		JumpOnSpotWest8 0x2
 End
 
 Action 13:
-	RunSouth 0x1
-	RunWest 0x6
-	SetInvisible 0x1
+		RunSouth 0x1
+		RunWest 0x6
+		SetInvisible 0x1
 End
 
 Action 14:
-	Delay2 0x1
-	WalkWest4 0x1
-	WalkSouth4 0x1
-	WalkWest4 0x6
-	SetInvisible 0x1
+		Delay2 0x1
+		WalkWest4 0x1
+		WalkSouth4 0x1
+		WalkWest4 0x6
+		SetInvisible 0x1
 End
 
 Action 15:
-	WalkWest8 0x2
-	WalkSouth8 0x1
-	WalkWest8 0x1
+		WalkWest8 0x2
+		WalkSouth8 0x1
+		WalkWest8 0x1
 End
 
 Action 16:
-	Delay8 0x1
-	SetVisible 0x1
-	WalkWest8 0x2
-	WalkSouth8 0x1
-	WalkOnSpotWest8 0x1
+		Delay8 0x1
+		SetVisible 0x1
+		WalkWest8 0x2
+		WalkSouth8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 17:
-	WalkWest8 0x2
-	WalkSouth8 0x1
-	WalkWest8 0x2
+		WalkWest8 0x2
+		WalkSouth8 0x1
+		WalkWest8 0x2
 End
 
 Action 18:
-	Delay8 0x1
-	SetVisible 0x1
-	WalkWest8 0x2
-	WalkSouth8 0x1
-	WalkWest8 0x1
+		Delay8 0x1
+		SetVisible 0x1
+		WalkWest8 0x2
+		WalkSouth8 0x1
+		WalkWest8 0x1
 End
 
 Action 19:
-	RunSouth 0x1
-	RunWest 0x5
-	SetInvisible 0x1
+		RunSouth 0x1
+		RunWest 0x5
+		SetInvisible 0x1
 End
 
 Action 20:
-	Delay2 0x1
-	WalkWest4 0x1
-	WalkSouth4 0x1
-	WalkWest4 0x5
-	SetInvisible 0x1
+		Delay2 0x1
+		WalkWest4 0x1
+		WalkSouth4 0x1
+		WalkWest4 0x5
+		SetInvisible 0x1
 End
 
 Action 21:
-	RunSouth 0x1
-	RunWest 0x4
-	RunNorth 0x1
-	RunWest 0x2
-	SetInvisible 0x1
+		RunSouth 0x1
+		RunWest 0x4
+		RunNorth 0x1
+		RunWest 0x2
+		SetInvisible 0x1
 End
 
 Action 22:
-	Delay2 0x1
-	WalkWest4 0x1
-	WalkSouth4 0x1
-	WalkWest4 0x4
-	WalkNorth4 0x1
-	WalkWest4 0x2
-	SetInvisible 0x1
+		Delay2 0x1
+		WalkWest4 0x1
+		WalkSouth4 0x1
+		WalkWest4 0x4
+		WalkNorth4 0x1
+		WalkWest4 0x2
+		SetInvisible 0x1
 End
 
 Action 23:
-	RunSouth 0x1
-	RunWest 0x3
-	RunNorth 0x1
-	RunWest 0x2
-	SetInvisible 0x1
+		RunSouth 0x1
+		RunWest 0x3
+		RunNorth 0x1
+		RunWest 0x2
+		SetInvisible 0x1
 End
 
 Action 24:
-	Delay2 0x1
-	WalkWest4 0x1
-	WalkSouth4 0x1
-	WalkWest4 0x3
-	WalkNorth4 0x1
-	WalkWest4 0x2
-	SetInvisible 0x1
+		Delay2 0x1
+		WalkWest4 0x1
+		WalkSouth4 0x1
+		WalkWest4 0x3
+		WalkNorth4 0x1
+		WalkWest4 0x2
+		SetInvisible 0x1
 End
 
 Action 25:
-	WalkOnSpotWest4 0x1
+		WalkOnSpotWest4 0x1
 End
 
 Action 26:
-	RunNorth 0x1
-	RunWest 0x6
-	SetInvisible 0x1
+		RunNorth 0x1
+		RunWest 0x6
+		SetInvisible 0x1
 End
 
 Action 27:
-	Delay2 0x1
-	WalkWest4 0x1
-	WalkNorth4 0x1
-	WalkWest4 0x6
-	SetInvisible 0x1
+		Delay2 0x1
+		WalkWest4 0x1
+		WalkNorth4 0x1
+		WalkWest4 0x6
+		SetInvisible 0x1
 End
 
 Action 28:
-	RunNorth 0x1
-	RunWest 0x5
-	SetInvisible 0x1
+		RunNorth 0x1
+		RunWest 0x5
+		SetInvisible 0x1
 End
 
 Action 29:
-	Delay2 0x1
-	WalkWest4 0x1
-	WalkNorth4 0x1
-	WalkWest4 0x5
-	SetInvisible 0x1
+		Delay2 0x1
+		WalkWest4 0x1
+		WalkNorth4 0x1
+		WalkWest4 0x5
+		SetInvisible 0x1
 End
 

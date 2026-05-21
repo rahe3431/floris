@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0075
- * Generated: 3/6/2026 7:25:18 PM
+ * Generated: 5/20/2026 9:55:27 PM
  */
 
 //===== SCRIPTS =====//
@@ -621,114 +621,114 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	WalkSouth8 0x2
-	WalkWest8 0x1
-	FaceEast 0x1
+		WalkSouth8 0x2
+		WalkWest8 0x1
+		FaceEast 0x1
 End
 
 Action 2:
-	WalkSouth8 0x2
+		WalkSouth8 0x2
 End
 
 Action 3:
-	WalkEast8 0x1
-	FaceSouth 0x1
+		WalkEast8 0x1
+		FaceSouth 0x1
 End
 
 Action 4:
-	FaceNorth 0x1
+		FaceNorth 0x1
 End
 
 Action 5:
-	WalkNorth8 0x1
-	SetInvisible 0x1
+		WalkNorth8 0x1
+		SetInvisible 0x1
 End
 
 Action 6:
-	WalkNorth8 0x2
-	SetInvisible 0x1
+		WalkNorth8 0x2
+		SetInvisible 0x1
 End
 
 Action 7:
-	WalkSouth4 0x1
-	WalkWest4 0x3
-	WalkNorth4 0x7
-	WalkWest4 0x2
+		WalkSouth4 0x1
+		WalkWest4 0x3
+		WalkNorth4 0x7
+		WalkWest4 0x2
 End
 
 Action 8:
-	WalkWest4 0x1
-	WalkNorth4 0x1
-	WalkWest4 0x2
-	WalkNorth4 0x5
-	WalkWest4 0x2
+		WalkWest4 0x1
+		WalkNorth4 0x1
+		WalkWest4 0x2
+		WalkNorth4 0x5
+		WalkWest4 0x2
 End
 
 Action 9:
-	WalkEast4 0x1
-	WalkNorth4 0x2
-	WalkEast4 0x3
+		WalkEast4 0x1
+		WalkNorth4 0x2
+		WalkEast4 0x3
 End
 
 Action 10:
-	WalkNorth4 0x2
-	WalkEast4 0x4
+		WalkNorth4 0x2
+		WalkEast4 0x4
 End
 
 Action 11:
-	WalkWest4 0x1
-	WalkNorth4 0x4
-	WalkWest4 0x2
+		WalkWest4 0x1
+		WalkNorth4 0x4
+		WalkWest4 0x2
 End
 
 Action 12:
-	WalkNorth4 0x4
-	WalkWest4 0x3
+		WalkNorth4 0x4
+		WalkWest4 0x3
 End
 
 Action 13:
-	WalkSouth4 0x1
-	WalkEast4 0x4
-	WalkNorth4 0x7
-	WalkEast4 0x2
+		WalkSouth4 0x1
+		WalkEast4 0x4
+		WalkNorth4 0x7
+		WalkEast4 0x2
 End
 
 Action 14:
-	WalkNorth4 0x1
-	WalkEast4 0x4
-	WalkNorth4 0x5
-	WalkEast4 0x2
+		WalkNorth4 0x1
+		WalkEast4 0x4
+		WalkNorth4 0x5
+		WalkEast4 0x2
 End
 
 Action 15:
-	WalkWest4 0x1
-	WalkNorth4 0x5
-	WalkEast4 0x2
+		WalkWest4 0x1
+		WalkNorth4 0x5
+		WalkEast4 0x2
 End
 
 Action 16:
-	WalkEast4 0x3
-	WalkNorth4 0x5
-	WalkWest4 0x2
+		WalkEast4 0x3
+		WalkNorth4 0x5
+		WalkWest4 0x2
 End
 
 Action 17:
-	FaceNorth 0x1
+		FaceNorth 0x1
 End
 
 Action 18:
-	FaceSouth 0x1
-	WalkWest4 0x1
-	FaceEast 0x1
+		FaceSouth 0x1
+		WalkWest4 0x1
+		FaceEast 0x1
 End
 
 Action 19:
-	WalkNorth4 0x2
-	SetInvisible 0x1
+		WalkNorth4 0x2
+		SetInvisible 0x1
 End
 
 Action 20:
-	WalkEast4 0x1
-	FaceSouth 0x1
+		WalkEast4 0x1
+		FaceSouth 0x1
 End
 

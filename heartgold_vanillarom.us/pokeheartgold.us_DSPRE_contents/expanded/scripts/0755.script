@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0755
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:36 PM
  */
 
 //===== SCRIPTS =====//
@@ -837,95 +837,95 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	WalkWest8 0x1
-	WalkNorth8 0x2
-	WalkEast8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkWest8 0x1
+		WalkNorth8 0x2
+		WalkEast8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 2:
-	Delay8 0x1
-	WalkOnSpotNorth8 0x1
+		Delay8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 3:
-	WalkOnSpotWest8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 4:
-	Delay8 0x1
-	EmoteExclamation 0x1
+		Delay8 0x1
+		EmoteExclamation 0x1
 End
 
 Action 5:
-	LockDir 0x1
-	WalkEast8 0x1
-	ReleaseDir 0x1
+		LockDir 0x1
+		WalkEast8 0x1
+		ReleaseDir 0x1
 End
 
 Action 6:
-	WalkOnSpotNorth8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 7:
-	WalkEast8 0x1
-	WalkSouth8 0x1
+		WalkEast8 0x1
+		WalkSouth8 0x1
 End
 
 Action 8:
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 9:
-	WalkEast8 0x1
-	WalkNorth8 0x1
-	FaceSouth 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x1
+		FaceSouth 0x1
 End
 
 Action 10:
-	WalkEast8 0x1
-	FaceSouth 0x1
+		WalkEast8 0x1
+		FaceSouth 0x1
 End
 
 Action 11:
-	WalkSouth8 0x1
-	Delay8 0x1
-	WalkNorth8 0x1
-	FaceSouth 0x1
+		WalkSouth8 0x1
+		Delay8 0x1
+		WalkNorth8 0x1
+		FaceSouth 0x1
 End
 
 Action 12:
-	WalkOnSpotNorth8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 13:
-	WalkNorth2 0x1
-	WalkEast2 0x1
-	FaceSouth 0x1
+		WalkNorth2 0x1
+		WalkEast2 0x1
+		FaceSouth 0x1
 End
 
 Action 14:
-	WalkNorth8 0x1
-	WalkOnSpotNorth8 0x1
-	LockDir 0x1
-	WalkSouth8 0x1
-	ReleaseDir 0x1
+		WalkNorth8 0x1
+		WalkOnSpotNorth8 0x1
+		LockDir 0x1
+		WalkSouth8 0x1
+		ReleaseDir 0x1
 End
 
 Action 15:
-	FaceEast 0x1
+		FaceEast 0x1
 End
 
 Action 16:
-	WalkWest8 0x8
+		WalkWest8 0x8
 End
 
 Action 17:
-	WalkNorth8 0x1
-	WalkEast8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 

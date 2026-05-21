@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0953
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:41 PM
  */
 
 //===== SCRIPTS =====//
@@ -2685,6 +2685,6 @@ Return
 
 //===== ACTIONS =====//
 Action 1:
-	RevealTrainer 0x1
+		RevealTrainer 0x1
 End
 

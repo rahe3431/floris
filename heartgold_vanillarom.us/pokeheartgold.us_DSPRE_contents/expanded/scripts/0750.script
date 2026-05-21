@@ -3,7 +3,7 @@
  * Rom ID: pokeheartgold
  * Game: HGSS
  * File: 0750
- * Generated: 3/6/2026 7:25:19 PM
+ * Generated: 5/20/2026 9:55:36 PM
  */
 
 //===== SCRIPTS =====//
@@ -559,64 +559,64 @@ Return
 
 //===== ACTIONS =====//
 Action 1:
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 2:
-	WalkSouth8 0x4
-	FaceWest 0x1
+		WalkSouth8 0x4
+		FaceWest 0x1
 End
 
 Action 3:
-	WalkOnSpotSouth8 0x1
+		WalkOnSpotSouth8 0x1
 End
 
 Action 4:
-	WalkNorth8 0x1
-	WalkEast8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 5:
-	Delay8 0x1
-	WalkOnSpotNorth8 0x1
+		Delay8 0x1
+		WalkOnSpotNorth8 0x1
 End
 
 Action 6:
-	WalkEast8 0x1
-	WalkNorth8 0x1
-	FaceSouth 0x1
+		WalkEast8 0x1
+		WalkNorth8 0x1
+		FaceSouth 0x1
 End
 
 Action 7:
-	WalkWest8 0x3
+		WalkWest8 0x3
 End
 
 Action 8:
-	WalkNorth8 0x1
-	WalkWest8 0x1
-	WalkNorth8 0x3
-	WalkOnSpotSouth8 0x1
+		WalkNorth8 0x1
+		WalkWest8 0x1
+		WalkNorth8 0x3
+		WalkOnSpotSouth8 0x1
 End
 
 Action 9:
-	WalkSouth8 0x2
-	WalkWest8 0x1
+		WalkSouth8 0x2
+		WalkWest8 0x1
 End
 
 Action 10:
-	Delay8 0x1
-	WalkEast8 0x2
-	Delay8 0x1
+		Delay8 0x1
+		WalkEast8 0x2
+		Delay8 0x1
 End
 
 Action 11:
-	WalkOnSpotWest8 0x1
+		WalkOnSpotWest8 0x1
 End
 
 Action 12:
-	WalkEast8 0x8
+		WalkEast8 0x8
 End
 
