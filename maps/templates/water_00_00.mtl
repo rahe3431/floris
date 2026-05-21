@@ -1,0 +1,8 @@
+newmtl sea_un
+map_Kd sea_un.png
+map_d sea_un.png
+
+newmtl sea_on
+map_Kd sea_on.png
+map_d sea_on.png
+
