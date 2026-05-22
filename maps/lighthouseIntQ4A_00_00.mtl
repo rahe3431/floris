@@ -1,0 +1,32 @@
+newmtl beach01
+map_Kd beach01.png
+map_d beach01.png
+
+newmtl road01
+map_Kd road01.png
+map_d road01.png
+
+newmtl aa_roadkk_01
+map_Kd aa_roadkk_01.png
+map_d aa_roadkk_01.png
+
+newmtl roadkk_x2
+map_Kd roadkk_x2.png
+map_d roadkk_x2.png
+
+newmtl roadkk_ro
+map_Kd roadkk_ro.png
+map_d roadkk_ro.png
+
+newmtl roadkk_z2
+map_Kd roadkk_z2.png
+map_d roadkk_z2.png
+
+newmtl roadkk_ri2
+map_Kd roadkk_ri2.png
+map_d roadkk_ri2.png
+
+newmtl slope_slope
+map_Kd slope_slope.png
+map_d slope_slope.png
+
