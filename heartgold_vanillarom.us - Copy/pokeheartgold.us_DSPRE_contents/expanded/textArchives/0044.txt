@@ -1,8 +1,0 @@
-# Key: 0x5F5C
-sleep
-poison
-burn
-paralysis
-frozen
-confusion
-infatuation
